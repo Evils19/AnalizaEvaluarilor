@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\AnalizaEvaluarilor.Razor.Components.props" />
+</Project>

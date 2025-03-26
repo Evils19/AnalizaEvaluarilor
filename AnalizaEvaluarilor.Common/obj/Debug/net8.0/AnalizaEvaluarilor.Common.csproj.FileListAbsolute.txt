@@ -1,0 +1,11 @@
+D:\MAUI\Teza\AnalizaEvaluarilor.Common\bin\Debug\net8.0\AnalizaEvaluarilor.Common.deps.json
+D:\MAUI\Teza\AnalizaEvaluarilor.Common\bin\Debug\net8.0\AnalizaEvaluarilor.Common.dll
+D:\MAUI\Teza\AnalizaEvaluarilor.Common\bin\Debug\net8.0\AnalizaEvaluarilor.Common.pdb
+D:\MAUI\Teza\AnalizaEvaluarilor.Common\obj\Debug\net8.0\AnalizaEvaluarilor.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\MAUI\Teza\AnalizaEvaluarilor.Common\obj\Debug\net8.0\AnalizaEvaluarilor.Common.AssemblyInfoInputs.cache
+D:\MAUI\Teza\AnalizaEvaluarilor.Common\obj\Debug\net8.0\AnalizaEvaluarilor.Common.AssemblyInfo.cs
+D:\MAUI\Teza\AnalizaEvaluarilor.Common\obj\Debug\net8.0\AnalizaEvaluarilor.Common.csproj.CoreCompileInputs.cache
+D:\MAUI\Teza\AnalizaEvaluarilor.Common\obj\Debug\net8.0\AnalizaEvaluarilor.Common.dll
+D:\MAUI\Teza\AnalizaEvaluarilor.Common\obj\Debug\net8.0\refint\AnalizaEvaluarilor.Common.dll
+D:\MAUI\Teza\AnalizaEvaluarilor.Common\obj\Debug\net8.0\AnalizaEvaluarilor.Common.pdb
+D:\MAUI\Teza\AnalizaEvaluarilor.Common\obj\Debug\net8.0\ref\AnalizaEvaluarilor.Common.dll

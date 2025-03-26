@@ -1,0 +1,14 @@
+D:\MAUI\Teza\AnalizaEvaluarilor.Domain\bin\Debug\net8.0\AnalizaEvaluarilor.Domain.deps.json
+D:\MAUI\Teza\AnalizaEvaluarilor.Domain\bin\Debug\net8.0\AnalizaEvaluarilor.Domain.runtimeconfig.json
+D:\MAUI\Teza\AnalizaEvaluarilor.Domain\bin\Debug\net8.0\AnalizaEvaluarilor.Domain.dll
+D:\MAUI\Teza\AnalizaEvaluarilor.Domain\bin\Debug\net8.0\AnalizaEvaluarilor.Domain.pdb
+D:\MAUI\Teza\AnalizaEvaluarilor.Domain\obj\Debug\net8.0\AnalizaEvaluarilor.Domain.csproj.AssemblyReference.cache
+D:\MAUI\Teza\AnalizaEvaluarilor.Domain\obj\Debug\net8.0\AnalizaEvaluarilor.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\MAUI\Teza\AnalizaEvaluarilor.Domain\obj\Debug\net8.0\AnalizaEvaluarilor.Domain.AssemblyInfoInputs.cache
+D:\MAUI\Teza\AnalizaEvaluarilor.Domain\obj\Debug\net8.0\AnalizaEvaluarilor.Domain.AssemblyInfo.cs
+D:\MAUI\Teza\AnalizaEvaluarilor.Domain\obj\Debug\net8.0\AnalizaEvaluarilor.Domain.csproj.CoreCompileInputs.cache
+D:\MAUI\Teza\AnalizaEvaluarilor.Domain\obj\Debug\net8.0\AnalizaEvaluarilor.Domain.dll
+D:\MAUI\Teza\AnalizaEvaluarilor.Domain\obj\Debug\net8.0\refint\AnalizaEvaluarilor.Domain.dll
+D:\MAUI\Teza\AnalizaEvaluarilor.Domain\obj\Debug\net8.0\AnalizaEvaluarilor.Domain.pdb
+D:\MAUI\Teza\AnalizaEvaluarilor.Domain\obj\Debug\net8.0\AnalizaEvaluarilor.Domain.genruntimeconfig.cache
+D:\MAUI\Teza\AnalizaEvaluarilor.Domain\obj\Debug\net8.0\ref\AnalizaEvaluarilor.Domain.dll

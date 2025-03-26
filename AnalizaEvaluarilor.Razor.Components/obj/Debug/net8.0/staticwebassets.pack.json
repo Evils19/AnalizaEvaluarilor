@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Razor.Components\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AnalizaEvaluarilor.Razor.Components.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AnalizaEvaluarilor.Razor.Components.2hy0m6ca5q.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Razor.Components\\wwwroot\\background.png",
+      "PackagePath": "staticwebassets\\background.png"
+    },
+    {
+      "Id": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Razor.Components\\wwwroot\\exampleJsInterop.js",
+      "PackagePath": "staticwebassets\\exampleJsInterop.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AnalizaEvaluarilor.Razor.Components.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AnalizaEvaluarilor.Razor.Components.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.AnalizaEvaluarilor.Razor.Components.props",
+      "PackagePath": "build\\AnalizaEvaluarilor.Razor.Components.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.AnalizaEvaluarilor.Razor.Components.props",
+      "PackagePath": "buildMultiTargeting\\AnalizaEvaluarilor.Razor.Components.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.AnalizaEvaluarilor.Razor.Components.props",
+      "PackagePath": "buildTransitive\\AnalizaEvaluarilor.Razor.Components.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

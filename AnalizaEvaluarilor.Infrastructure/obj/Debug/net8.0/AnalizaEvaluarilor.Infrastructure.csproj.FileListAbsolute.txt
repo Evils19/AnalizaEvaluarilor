@@ -1,0 +1,17 @@
+D:\MAUI\Teza\AnalizaEvaluarilor.Infrastructure\bin\Debug\net8.0\AnalizaEvaluarilor.Infrastructure.deps.json
+D:\MAUI\Teza\AnalizaEvaluarilor.Infrastructure\bin\Debug\net8.0\AnalizaEvaluarilor.Infrastructure.runtimeconfig.json
+D:\MAUI\Teza\AnalizaEvaluarilor.Infrastructure\bin\Debug\net8.0\AnalizaEvaluarilor.Infrastructure.dll
+D:\MAUI\Teza\AnalizaEvaluarilor.Infrastructure\bin\Debug\net8.0\AnalizaEvaluarilor.Infrastructure.pdb
+D:\MAUI\Teza\AnalizaEvaluarilor.Infrastructure\bin\Debug\net8.0\AnalizaEvaluarilor.Domain.dll
+D:\MAUI\Teza\AnalizaEvaluarilor.Infrastructure\bin\Debug\net8.0\AnalizaEvaluarilor.Domain.pdb
+D:\MAUI\Teza\AnalizaEvaluarilor.Infrastructure\obj\Debug\net8.0\AnalizaEvaluarilor.Infrastructure.csproj.AssemblyReference.cache
+D:\MAUI\Teza\AnalizaEvaluarilor.Infrastructure\obj\Debug\net8.0\AnalizaEvaluarilor.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\MAUI\Teza\AnalizaEvaluarilor.Infrastructure\obj\Debug\net8.0\AnalizaEvaluarilor.Infrastructure.AssemblyInfoInputs.cache
+D:\MAUI\Teza\AnalizaEvaluarilor.Infrastructure\obj\Debug\net8.0\AnalizaEvaluarilor.Infrastructure.AssemblyInfo.cs
+D:\MAUI\Teza\AnalizaEvaluarilor.Infrastructure\obj\Debug\net8.0\AnalizaEvaluarilor.Infrastructure.csproj.CoreCompileInputs.cache
+D:\MAUI\Teza\AnalizaEvaluarilor.Infrastructure\obj\Debug\net8.0\AnalizaE.44A90448.Up2Date
+D:\MAUI\Teza\AnalizaEvaluarilor.Infrastructure\obj\Debug\net8.0\AnalizaEvaluarilor.Infrastructure.dll
+D:\MAUI\Teza\AnalizaEvaluarilor.Infrastructure\obj\Debug\net8.0\refint\AnalizaEvaluarilor.Infrastructure.dll
+D:\MAUI\Teza\AnalizaEvaluarilor.Infrastructure\obj\Debug\net8.0\AnalizaEvaluarilor.Infrastructure.pdb
+D:\MAUI\Teza\AnalizaEvaluarilor.Infrastructure\obj\Debug\net8.0\AnalizaEvaluarilor.Infrastructure.genruntimeconfig.cache
+D:\MAUI\Teza\AnalizaEvaluarilor.Infrastructure\obj\Debug\net8.0\ref\AnalizaEvaluarilor.Infrastructure.dll
