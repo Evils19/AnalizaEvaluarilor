@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Razor.Components\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\AnalizaEvaluarilor.Razor.Components.bundle.scp.css",
-      "PackagePath": "staticwebassets\\AnalizaEvaluarilor.Razor.Components.2hy0m6ca5q.bundle.scp.css"
-    },
-    {
       "Id": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Razor.Components\\wwwroot\\background.png",
       "PackagePath": "staticwebassets\\background.png"
     },

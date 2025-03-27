@@ -1,0 +1,94 @@
+﻿@page "/login"
+@using System.IdentityModel.Tokens.Jwt
+@using System.Security.Claims
+@using System.Text.Json
+@using AnalizaEvaluarilor.Common.DTO
+@using AnalizaEvaluarilor.Mobile.Service
+@using Microsoft.AspNetCore.Components.Authorization
+@inject NavigationManager Navigation
+
+<EditForm Model="LoginModel" OnValidSubmit="HandleLogin">
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+    <ValidationSummary></ValidationSummary>
+
+    <div class="card">
+        <div class="card-header">Login Account</div>
+        <div class="card-body">
+            <div class="form-group mt-2">
+                <label>Username</label>
+                <InputText class="form-control" @bind-Value="LoginModel.Email"></InputText>
+            </div>
+            <div class="form-group mt-2">
+                <label>Password</label>
+                <InputText type="password" class="form-control" @bind-Value="LoginModel.Password"></InputText>
+            </div>
+        </div>
+        <NavLink class="nav-link" href="/Registration">
+            <span>Apasă aici dacă nu ai un cont</span>
+        </NavLink>
+        <div class="card-footer">
+            <button type="submit" class="btn btn-primary">Login</button>
+        </div>
+    </div>
+
+</EditForm>
+
+
+@code
+{
+    [Inject] IAppService AppService { get; set; }
+    private UserDTO LoginModel;
+
+
+    protected override void OnInitialized()
+    {
+        LoginModel = new UserDTO();
+    }
+
+    public async Task HandleLogin()
+    {
+        var response = await AppService.Authenticate(LoginModel);
+
+        if (!string.IsNullOrWhiteSpace(response))
+        {
+            var status = JsonSerializer.Deserialize<AuthResponseDto>(response);
+
+            if (status is not null && !string.IsNullOrWhiteSpace(status.Token))
+            {
+                var handler = new JwtSecurityTokenHandler();
+                var jsonToken = handler.ReadToken(status.Token) as JwtSecurityToken;
+
+                string userId = jsonToken.Claims.First(claim => claim.Type == ClaimTypes.NameIdentifier).Value;
+                string username = jsonToken.Claims.First(claim => claim.Type == ClaimTypes.Name).Value;
+                string role = jsonToken.Claims.First(claim => claim.Type == ClaimTypes.Role).Value;
+                string email = jsonToken.Claims.First(claim => claim.Type == ClaimTypes.Email).Value;
+
+                var userBaiscDetails = new UserBasicDatail
+                {
+                    Id = userId,
+                    UserName = username,
+                    Role = role,
+                    Email = email,
+                    Token = status.Token
+                };
+                string userBasicInfoStr = JsonSerializer.Serialize(userBaiscDetails);
+
+                await SecureStorage.SetAsync(nameof(Setting.UserBasicDatail), userBasicInfoStr);
+                Setting.UserBasicDatail = userBaiscDetails;
+
+                Navigation.NavigateTo("/Dashbord");
+              
+            }
+            else
+            {
+                string errorMessage = status?.ErrorMesage ?? "An unknown error occurred.";
+                await App.Current.MainPage.DisplayAlert("Error", errorMessage, "Ok");
+            }
+        }
+        else
+        {
+            await App.Current.MainPage.DisplayAlert("Error", "Invalid credentials", "Ok");
+        }
+    }
+
+}

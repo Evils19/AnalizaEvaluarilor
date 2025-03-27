@@ -17,3 +17,4 @@ D:\MAUI\Teza\AnalizaEvaluarilor.Application\bin\Debug\net8.0\AnalizaEvaluarilor.
 D:\MAUI\Teza\AnalizaEvaluarilor.Application\bin\Debug\net8.0\AnalizaEvaluarilor.Domain.pdb
 D:\MAUI\Teza\AnalizaEvaluarilor.Application\obj\Debug\net8.0\AnalizaEvaluarilor.Application.csproj.AssemblyReference.cache
 D:\MAUI\Teza\AnalizaEvaluarilor.Application\obj\Debug\net8.0\AnalizaE.6A0EA857.Up2Date
+D:\MAUI\Teza\AnalizaEvaluarilor.Application\obj\Debug\net8.0\AnalizaEvaluarilor.Application.sourcelink.json

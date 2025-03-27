@@ -9,3 +9,4 @@ D:\MAUI\Teza\AnalizaEvaluarilor.Common\obj\Debug\net8.0\AnalizaEvaluarilor.Commo
 D:\MAUI\Teza\AnalizaEvaluarilor.Common\obj\Debug\net8.0\refint\AnalizaEvaluarilor.Common.dll
 D:\MAUI\Teza\AnalizaEvaluarilor.Common\obj\Debug\net8.0\AnalizaEvaluarilor.Common.pdb
 D:\MAUI\Teza\AnalizaEvaluarilor.Common\obj\Debug\net8.0\ref\AnalizaEvaluarilor.Common.dll
+D:\MAUI\Teza\AnalizaEvaluarilor.Common\obj\Debug\net8.0\AnalizaEvaluarilor.Common.sourcelink.json

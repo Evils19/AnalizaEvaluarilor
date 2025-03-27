@@ -1,17 +1,5 @@
 ﻿<Project>
   <ItemGroup>
-    <StaticWebAssetEndpoint Include="_content/AnalizaEvaluarilor.Razor.Components/AnalizaEvaluarilor.Razor.Components.2hy0m6ca5q.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AnalizaEvaluarilor.Razor.Components.2hy0m6ca5q.bundle.scp.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2hy0m6ca5q"},{"Name":"integrity","Value":"sha256-emO73XrM5e\u002BIEMa6oAChK4V8h6hwCZYi2FYksfcehuE="},{"Name":"label","Value":"_content/AnalizaEvaluarilor.Razor.Components/AnalizaEvaluarilor.Razor.Components.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"228"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022emO73XrM5e\u002BIEMa6oAChK4V8h6hwCZYi2FYksfcehuE=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Mar 2025 12:22:08 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/AnalizaEvaluarilor.Razor.Components/AnalizaEvaluarilor.Razor.Components.bundle.scp.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AnalizaEvaluarilor.Razor.Components.2hy0m6ca5q.bundle.scp.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-emO73XrM5e\u002BIEMa6oAChK4V8h6hwCZYi2FYksfcehuE="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"228"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022emO73XrM5e\u002BIEMa6oAChK4V8h6hwCZYi2FYksfcehuE=\u0022"},{"Name":"Last-Modified","Value":"Wed, 26 Mar 2025 12:22:08 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/AnalizaEvaluarilor.Razor.Components/background.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\background.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

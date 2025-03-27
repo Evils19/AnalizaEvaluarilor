@@ -8,9 +8,7 @@ D:\MAUI\Teza\AnalizaEvaluarilor.Razor.Components\obj\Debug\net8.0\AnalizaEvaluar
 D:\MAUI\Teza\AnalizaEvaluarilor.Razor.Components\obj\Debug\net8.0\AnalizaEvaluarilor.Razor.Components.AssemblyInfoInputs.cache
 D:\MAUI\Teza\AnalizaEvaluarilor.Razor.Components\obj\Debug\net8.0\AnalizaEvaluarilor.Razor.Components.AssemblyInfo.cs
 D:\MAUI\Teza\AnalizaEvaluarilor.Razor.Components\obj\Debug\net8.0\AnalizaEvaluarilor.Razor.Components.csproj.CoreCompileInputs.cache
-D:\MAUI\Teza\AnalizaEvaluarilor.Razor.Components\obj\Debug\net8.0\scopedcss\Component1.razor.rz.scp.css
 D:\MAUI\Teza\AnalizaEvaluarilor.Razor.Components\obj\Debug\net8.0\scopedcss\bundle\AnalizaEvaluarilor.Razor.Components.styles.css
-D:\MAUI\Teza\AnalizaEvaluarilor.Razor.Components\obj\Debug\net8.0\scopedcss\projectbundle\AnalizaEvaluarilor.Razor.Components.bundle.scp.css
 D:\MAUI\Teza\AnalizaEvaluarilor.Razor.Components\obj\Debug\net8.0\staticwebassets.build.json
 D:\MAUI\Teza\AnalizaEvaluarilor.Razor.Components\obj\Debug\net8.0\staticwebassets.development.json
 D:\MAUI\Teza\AnalizaEvaluarilor.Razor.Components\obj\Debug\net8.0\staticwebassets.build.endpoints.json
@@ -24,3 +22,7 @@ D:\MAUI\Teza\AnalizaEvaluarilor.Razor.Components\obj\Debug\net8.0\AnalizaEvaluar
 D:\MAUI\Teza\AnalizaEvaluarilor.Razor.Components\obj\Debug\net8.0\refint\AnalizaEvaluarilor.Razor.Components.dll
 D:\MAUI\Teza\AnalizaEvaluarilor.Razor.Components\obj\Debug\net8.0\AnalizaEvaluarilor.Razor.Components.pdb
 D:\MAUI\Teza\AnalizaEvaluarilor.Razor.Components\obj\Debug\net8.0\ref\AnalizaEvaluarilor.Razor.Components.dll
+D:\MAUI\Teza\AnalizaEvaluarilor.Razor.Components\obj\Debug\net8.0\AnalizaEvaluarilor.Razor.Components.sourcelink.json
+D:\MAUI\Teza\AnalizaEvaluarilor.Razor.Components\bin\Debug\net8.0\AnalizaEvaluarilor.Common.dll
+D:\MAUI\Teza\AnalizaEvaluarilor.Razor.Components\bin\Debug\net8.0\AnalizaEvaluarilor.Common.pdb
+D:\MAUI\Teza\AnalizaEvaluarilor.Razor.Components\obj\Debug\net8.0\AnalizaE.5D4965FA.Up2Date

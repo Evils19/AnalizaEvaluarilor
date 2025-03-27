@@ -461,7 +461,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Common\\AnalizaEvaluarilor.Common.csproj": {
+                "projectPath": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Common\\AnalizaEvaluarilor.Common.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -482,6 +486,14 @@
             "Microsoft.AspNetCore.Components.Web": {
               "target": "Package",
               "version": "[8.0.13, )"
+            },
+            "Microsoft.Maui.Essentials": {
+              "target": "Package",
+              "version": "[8.0.100, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.7.0, )"
             }
           },
           "imports": [

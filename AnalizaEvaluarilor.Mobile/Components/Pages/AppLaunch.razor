@@ -1,0 +1,42 @@
+﻿@page "/"
+@using System.IdentityModel.Tokens.Jwt
+@using System.Text.Json
+@using AnalizaEvaluarilor.Common.DTO
+@using Microsoft.Maui.Storage
+@inject NavigationManager Navigation
+<h3>AppLaunch</h3>
+
+
+Loading...
+
+@code {
+
+    protected override async Task OnInitializedAsync()
+    {
+        string? userDetail = await SecureStorage.GetAsync(nameof(Setting.UserBasicDatail));
+        
+        
+        if (!string.IsNullOrWhiteSpace(userDetail))
+        {
+            var userBasicDatail = JsonSerializer.Deserialize<UserBasicDatail>(userDetail);
+            var handler = new JwtSecurityTokenHandler();
+            var jsonToken = handler.ReadToken(userBasicDatail.Token) as JwtSecurityToken;
+
+            if (jsonToken.ValidTo < DateTime.UtcNow)
+            {
+                Navigation.NavigateTo("/login");
+            }
+            else
+            {
+                Setting.UserBasicDatail = userBasicDatail;
+                Navigation.NavigateTo("/Dashbord");
+            }
+        }
+
+        else
+        {
+            Navigation.NavigateTo("/login");
+        }
+    }
+
+}

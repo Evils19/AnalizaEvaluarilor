@@ -26,4 +26,19 @@ public class AutentificationController : ControllerBase
         return Ok(result);
     }
     
+    [HttpPost]
+    [Route("api/register")]
+    public async Task<IActionResult> Register([FromBody] RegistrDTO registrDto)
+    {
+        
+        if (registrDto==null)
+        {
+            return BadRequest("Invalid client request");
+        }
+     
+        var result = await _authService.Register(registrDto);
+        
+     
+        return Ok(result);  
+    }
 }

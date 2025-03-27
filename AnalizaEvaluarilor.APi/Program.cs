@@ -23,8 +23,8 @@ option.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
 option.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 }).AddJwtBearer(option =>
 {
-    var secretkey = builder.Configuration.GetValue<string>("Jwt:SecretKey");
-    var suymmetricSecurityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secretkey));
+    
+    var suymmetricSecurityKey = new SymmetricSecurityKey(builder.Configuration.GetValue<string>("Jwt:Secret").Select(c => (byte)c).ToArray());
 
     option.TokenValidationParameters = new TokenValidationParameters()
     {

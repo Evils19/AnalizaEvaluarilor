@@ -1,4 +1,7 @@
-﻿@inherits LayoutComponentBase
+﻿@using System.IdentityModel.Tokens.Jwt
+@using System.Text.Json
+@using AnalizaEvaluarilor.Common.DTO
+@inherits LayoutComponentBase
 
 <div class="page">
     <div class="sidebar">
@@ -11,7 +14,27 @@
         </div>
 
         <article class="content px-4">
-            @Body
+            @if (!Setting.IsAcces)
+            {
+                <h3 style="color: red;">Acces Interzis</h3>
+                <p>Nu ai permisiunea necesară pentru a accesa această pagină.</p>
+                
+            }
+            else
+            {
+                @Body
+            }
         </article>
     </main>
 </div>
+
+
+
+@code
+{
+    
+  
+
+    
+}
+}

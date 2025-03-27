@@ -1,4 +1,8 @@
-﻿using Microsoft.Extensions.Logging;
+﻿using AnalizaEvaluarilor.Mobile.Service;
+using Microsoft.AspNetCore.Components.Authorization;
+using Microsoft.Extensions.Logging;
+
+
 
 namespace AnalizaEvaluarilor.Mobile;
 
@@ -12,6 +16,9 @@ public static class MauiProgram
             .ConfigureFonts(fonts => { fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular"); });
 
         builder.Services.AddMauiBlazorWebView();
+        builder.Services.AddSingleton<IAppService, AppService>();
+ 
+        builder.Services.AddAuthorizationCore();
 
 #if DEBUG
         builder.Services.AddBlazorWebViewDeveloperTools();
@@ -21,3 +28,4 @@ public static class MauiProgram
         return builder.Build();
     }
 }
+

@@ -168,3 +168,7 @@ D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.AspNetCore.Crypto
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\MAUI\Teza\AnalizaEvaluarilor.APi\obj\Debug\net8.0\AnalizaEvaluarilor.APi.sourcelink.json
+D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
+D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.Maui.Essentials.dll
+D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.Maui.Graphics.dll

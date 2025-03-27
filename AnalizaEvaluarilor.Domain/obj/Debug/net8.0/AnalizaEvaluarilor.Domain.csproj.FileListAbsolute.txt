@@ -12,3 +12,4 @@ D:\MAUI\Teza\AnalizaEvaluarilor.Domain\obj\Debug\net8.0\refint\AnalizaEvaluarilo
 D:\MAUI\Teza\AnalizaEvaluarilor.Domain\obj\Debug\net8.0\AnalizaEvaluarilor.Domain.pdb
 D:\MAUI\Teza\AnalizaEvaluarilor.Domain\obj\Debug\net8.0\AnalizaEvaluarilor.Domain.genruntimeconfig.cache
 D:\MAUI\Teza\AnalizaEvaluarilor.Domain\obj\Debug\net8.0\ref\AnalizaEvaluarilor.Domain.dll
+D:\MAUI\Teza\AnalizaEvaluarilor.Domain\obj\Debug\net8.0\AnalizaEvaluarilor.Domain.sourcelink.json

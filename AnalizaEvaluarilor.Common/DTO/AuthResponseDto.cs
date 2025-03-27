@@ -2,7 +2,7 @@
 
 namespace AnalizaEvaluarilor.Common.DTO;
 
-public record AuthResponseDto(string Token, string? ErrorMesage=null)
+public record AuthResponseDto([property: JsonPropertyName("token")]string Token,[property: JsonPropertyName("errormesage")]  string? ErrorMesage=null)
 {
     [JsonIgnore]
     public bool HasError => ErrorMesage !=  null;   

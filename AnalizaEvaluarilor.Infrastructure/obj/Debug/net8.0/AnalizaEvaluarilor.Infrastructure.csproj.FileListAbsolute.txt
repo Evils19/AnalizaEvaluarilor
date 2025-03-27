@@ -15,3 +15,4 @@ D:\MAUI\Teza\AnalizaEvaluarilor.Infrastructure\obj\Debug\net8.0\refint\AnalizaEv
 D:\MAUI\Teza\AnalizaEvaluarilor.Infrastructure\obj\Debug\net8.0\AnalizaEvaluarilor.Infrastructure.pdb
 D:\MAUI\Teza\AnalizaEvaluarilor.Infrastructure\obj\Debug\net8.0\AnalizaEvaluarilor.Infrastructure.genruntimeconfig.cache
 D:\MAUI\Teza\AnalizaEvaluarilor.Infrastructure\obj\Debug\net8.0\ref\AnalizaEvaluarilor.Infrastructure.dll
+D:\MAUI\Teza\AnalizaEvaluarilor.Infrastructure\obj\Debug\net8.0\AnalizaEvaluarilor.Infrastructure.sourcelink.json

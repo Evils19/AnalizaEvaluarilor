@@ -23,7 +23,126 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8d6fd92e-8341-477a-8238-4ba429ee277b" name="Changes" comment="" />
+    <list default="true" id="8d6fd92e-8341-477a-8238-4ba429ee277b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Teza/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/Service/AuthService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Teza/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Teza/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.APi/Controllers/WeatherForecastController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.APi/Controllers/WeatherForecastController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.APi/obj/Debug/net8.0/AnalizaEvaluarilor.APi.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.APi/obj/Debug/net8.0/AnalizaEvaluarilor.APi.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.APi/obj/Debug/net8.0/AnalizaEvaluarilor.APi.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.APi/obj/Debug/net8.0/AnalizaEvaluarilor.APi.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.APi/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.APi/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Application/obj/Debug/net8.0/AnalizaEvaluarilor.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Application/obj/Debug/net8.0/AnalizaEvaluarilor.Application.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Application/obj/Debug/net8.0/AnalizaEvaluarilor.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Application/obj/Debug/net8.0/AnalizaEvaluarilor.Application.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Application/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Common/obj/Debug/net8.0/AnalizaEvaluarilor.Common.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Common/obj/Debug/net8.0/AnalizaEvaluarilor.Common.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Common/obj/Debug/net8.0/AnalizaEvaluarilor.Common.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Common/obj/Debug/net8.0/AnalizaEvaluarilor.Common.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Common/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Common/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Domain/obj/Debug/net8.0/AnalizaEvaluarilor.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Domain/obj/Debug/net8.0/AnalizaEvaluarilor.Domain.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Domain/obj/Debug/net8.0/AnalizaEvaluarilor.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Domain/obj/Debug/net8.0/AnalizaEvaluarilor.Domain.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Infrastructure/obj/Debug/net8.0/AnalizaEvaluarilor.Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Infrastructure/obj/Debug/net8.0/AnalizaEvaluarilor.Infrastructure.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Infrastructure/obj/Debug/net8.0/AnalizaEvaluarilor.Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Infrastructure/obj/Debug/net8.0/AnalizaEvaluarilor.Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/AnalizaEvaluarilor.Mobile.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/AnalizaEvaluarilor.Mobile.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/Components/Pages/Home.razor" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/Components/Pages/Home.razor" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/MauiProgram.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/MauiProgram.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/AnalizaEvaluarilor.Mobile.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/AnalizaEvaluarilor.Mobile.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/AnalizaEvaluarilor.Mobile.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/AnalizaEvaluarilor.Mobile.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/AnalizaEvaluarilor.Mobile.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/AnalizaEvaluarilor.Mobile.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/AnalizaEvaluarilor.Mobile.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/AnalizaEvaluarilor.Mobile.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/AnalizaEvaluarilor.Mobile.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/AnalizaEvaluarilor.Mobile.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/AnalizaEvaluarilor.Mobile.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/AnalizaEvaluarilor.Mobile.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/_Microsoft.Android.Resource.Designer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/_Microsoft.Android.Resource.Designer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/build.props" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/build.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/designtime/libraryprojectimports.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/designtime/libraryprojectimports.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/102/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/102/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/103/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/103/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/104/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/104/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/105/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/105/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/106/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/106/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/107/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/107/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/109/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/109/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/110/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/110/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/111/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/111/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/112/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/112/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/115/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/115/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/117/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/117/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/118/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/118/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/121/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/121/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/122/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/122/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/124/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/124/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/126/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/126/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/127/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/127/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/128/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/128/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/129/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/129/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/130/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/130/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/131/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/131/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/132/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/132/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/133/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/133/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/134/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/134/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/135/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/135/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/136/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/136/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/137/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/137/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/138/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/138/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/139/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/139/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/140/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/140/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/141/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/141/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/142/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/142/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/143/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/143/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/144/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/144/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/145/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/145/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/146/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/146/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/147/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/147/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/149/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/149/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/151/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/151/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/154/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/154/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/155/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/155/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/156/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/156/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/157/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/157/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/158/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/158/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/92/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/92/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/93/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/93/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/94/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/94/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/95/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/95/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/96/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/96/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/98/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/98/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/99/jl/res.zip" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/lp/99/jl/res.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/staticwebassets.build.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/staticwebassets.build.endpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/staticwebassets.publish.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/staticwebassets.publish.endpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/staticwebassets.publish.json" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/staticwebassets.publish.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/staticwebassets/msbuild.AnalizaEvaluarilor.Mobile.Microsoft.AspNetCore.StaticWebAssetEndpoints.props" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-android/staticwebassets/msbuild.AnalizaEvaluarilor.Mobile.Microsoft.AspNetCore.StaticWebAssetEndpoints.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-ios/iossimulator-x64/AnalizaEvaluarilor.Mobile.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-ios/iossimulator-x64/AnalizaEvaluarilor.Mobile.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-ios/iossimulator-x64/AnalizaEvaluarilor.Mobile.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-ios/iossimulator-x64/AnalizaEvaluarilor.Mobile.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-ios/iossimulator-x64/AnalizaEvaluarilor.Mobile.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-ios/iossimulator-x64/AnalizaEvaluarilor.Mobile.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-ios/iossimulator-x64/AnalizaEvaluarilor.Mobile.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-ios/iossimulator-x64/AnalizaEvaluarilor.Mobile.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-ios/iossimulator-x64/AnalizaEvaluarilor.Mobile.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-ios/iossimulator-x64/AnalizaEvaluarilor.Mobile.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/AnalizaEvaluarilor.Mobile.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/AnalizaEvaluarilor.Mobile.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/AnalizaEvaluarilor.Mobile.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/AnalizaEvaluarilor.Mobile.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/AnalizaEvaluarilor.Mobile.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/AnalizaEvaluarilor.Mobile.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/AnalizaEvaluarilor.Mobile.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/AnalizaEvaluarilor.Mobile.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/AnalizaEvaluarilor.Mobile.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-maccatalyst/maccatalyst-x64/AnalizaEvaluarilor.Mobile.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/AnalizaEvaluarilor.Mobile.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/AnalizaEvaluarilor.Mobile.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/AnalizaEvaluarilor.Mobile.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/AnalizaEvaluarilor.Mobile.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/AnalizaEvaluarilor.Mobile.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/AnalizaEvaluarilor.Mobile.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/AnalizaEvaluarilor.Mobile.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/AnalizaEvaluarilor.Mobile.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/AnalizaEvaluarilor.Mobile.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/AnalizaEvaluarilor.Mobile.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/input.json" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/input.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/staticwebassets.build.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/staticwebassets.build.endpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/staticwebassets.build.json" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/staticwebassets.build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/staticwebassets.publish.endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/staticwebassets.publish.endpoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/staticwebassets.publish.json" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/staticwebassets.publish.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/staticwebassets/msbuild.AnalizaEvaluarilor.Mobile.Microsoft.AspNetCore.StaticWebAssetEndpoints.props" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/Debug/net8.0-windows10.0.19041.0/win10-x64/staticwebassets/msbuild.AnalizaEvaluarilor.Mobile.Microsoft.AspNetCore.StaticWebAssetEndpoints.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Mobile/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Razor.Components/obj/Debug/net8.0/AnalizaEvaluarilor.Razor.Components.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Razor.Components/obj/Debug/net8.0/AnalizaEvaluarilor.Razor.Components.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Razor.Components/obj/Debug/net8.0/AnalizaEvaluarilor.Razor.Components.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Razor.Components/obj/Debug/net8.0/AnalizaEvaluarilor.Razor.Components.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AnalizaEvaluarilor.Razor.Components/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/AnalizaEvaluarilor.Razor.Components/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,12 +154,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Evils19/AnalizaEvaluarilor.git",
-    "accountId": "004c0baa-1668-47af-a013-34b8cd0fac7f"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Evils19&quot;
   }
-}]]></component>
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Evils19/AnalizaEvaluarilor.git&quot;,
+    &quot;accountId&quot;: &quot;004c0baa-1668-47af-a013-34b8cd0fac7f&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$USER_HOME$/.nuget/packages/microsoft.windowsappsdk/1.5.240802000/include/DeploymentManagerAutoInitializer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/.nuget/packages/microsoft.windowsappsdk/1.5.240802000/include/WindowsAppSDK-VersionInfo.cs" root0="SKIP_HIGHLIGHTING" />
@@ -63,20 +188,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.AnalizaEvaluarilor.APi: IIS Express.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.AnalizaEvaluarilor.APi: IIS Express.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.AnalizaEvaluarilor.APi: IIS Express">
+}</component>
+  <component name="RunManager" selected="Multi-Launch.Multi-Launch: AnalizaEvaluarilor">
     <configuration name="AnalizaEvaluarilor.APi: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/AnalizaEvaluarilor.APi/AnalizaEvaluarilor.APi.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net8.0" />
@@ -201,6 +326,50 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="Multi-Launch: AnalizaEvaluarilor" type="com.intellij.execution.configurations.multilaunch" factoryName="MultiLaunchConfiguration">
+      <rows>
+        <ExecutableRowSnapshot>
+          <option name="condition">
+            <ConditionSnapshot>
+              <option name="type" value="immediately" />
+            </ConditionSnapshot>
+          </option>
+          <option name="executable">
+            <ExecutableSnapshot>
+              <option name="id" value="runConfig:.NET Launch Settings Profile.AnalizaEvaluarilor.APi: IIS Express" />
+            </ExecutableSnapshot>
+          </option>
+        </ExecutableRowSnapshot>
+        <ExecutableRowSnapshot>
+          <option name="condition">
+            <ConditionSnapshot>
+              <option name="type" value="immediately" />
+            </ConditionSnapshot>
+          </option>
+          <option name="executable">
+            <ExecutableSnapshot>
+              <option name="id" value="runConfig:UWP.AnalizaEvaluarilor.Mobile" />
+            </ExecutableSnapshot>
+          </option>
+        </ExecutableRowSnapshot>
+      </rows>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.AnalizaEvaluarilor.APi: IIS Express" />
+      <item itemvalue=".NET Launch Settings Profile.WebApplication1: http" />
+      <item itemvalue=".NET Launch Settings Profile.WebApplication1: https" />
+      <item itemvalue=".NET Launch Settings Profile.WebApplication1: IIS Express" />
+      <item itemvalue="Android.AnalizaEvaluarilor.Mobile" />
+      <item itemvalue="Android.Teza" />
+      <item itemvalue="iOS.AnalizaEvaluarilor.Mobile" />
+      <item itemvalue="iOS.Teza" />
+      <item itemvalue="macOS.AnalizaEvaluarilor.Mobile" />
+      <item itemvalue="macOS.Teza" />
+      <item itemvalue="Multi-Launch.Multi-Launch: AnalizaEvaluarilor" />
+      <item itemvalue="UWP.AnalizaEvaluarilor.Mobile" />
+      <item itemvalue="UWP.Teza" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -212,7 +381,7 @@
       <updated>1742930951617</updated>
       <workItem from="1742930952805" duration="841000" />
       <workItem from="1742932901268" duration="663000" />
-      <workItem from="1742983369778" duration="17996000" />
+      <workItem from="1742983369778" duration="19496000" />
     </task>
     <servers />
   </component>

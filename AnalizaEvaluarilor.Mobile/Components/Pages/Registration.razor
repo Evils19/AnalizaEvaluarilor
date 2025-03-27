@@ -1,0 +1,79 @@
+﻿@page "/Registration"
+@using System.Net
+@using AnalizaEvaluarilor.Common.DTO
+@using AnalizaEvaluarilor.Mobile.Service
+@using System.Text.Json
+
+
+
+<EditForm Model="registerDTO" OnValidSubmit="HandleLogin">
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+    <div class="card">
+        <div class="card-header">Registration</div>
+        <div class="card-body">
+            <div class="form-group mt-2">
+                <label>Email</label>
+                <InputText class="form-control" @bind-Value="registerDTO.Email"></InputText>
+                <ValidationMessage For="@(() => registerDTO.Email)"/>
+            </div>
+            <div class="form-group mt-2">
+                <label>Username</label>
+                <InputText class="form-control" @bind-Value="registerDTO.Username"></InputText>
+                <ValidationMessage For="@(() => registerDTO.Username)" />
+
+            </div>
+            <div class="form-group mt-2">
+                <label>Password</label>
+                <InputText type="password" class="form-control" @bind-Value="registerDTO.Password"></InputText>
+                <ValidationMessage For="@(() => registerDTO.Password)"/>
+            </div>
+            <div class="form-group mt-2">
+                <label>Password Confirm</label>
+                <InputText type="password" class="form-control" @bind-Value="registerDTO.PasswordConfimr"></InputText>
+                <ValidationMessage For="@(() => registerDTO.PasswordConfimr)"/>
+            </div>
+        </div>
+        <div class="card-footer">
+            <button type="submit" class="btn btn-primary">Înregistrare</button>
+        </div>
+    </div>
+</EditForm>
+
+
+
+
+@code {
+    private RegistrDTO registerDTO;
+    [Inject] NavigationManager Navigation { get; set; }
+    [Inject] IAppService AppService { get; set; }
+  
+   protected override void OnInitialized()
+    {
+        registerDTO = new RegistrDTO();
+    } 
+    
+    public async Task HandleLogin()
+    {
+
+        var response = await AppService.Registration(registerDTO);
+        if (!string.IsNullOrWhiteSpace(response))
+        {
+            var Status = JsonSerializer.Deserialize<HtppResponse>(response);
+            if (Status.StatusCode == (HttpStatusCode)200)
+            {
+                await App.Current.MainPage.DisplayAlert("Succes", Status.Message, "Ok");
+                Navigation.NavigateTo("/");
+            }
+            else
+            {
+                string errorMessage = Status?.Message ?? "An unknown error occurred.";
+                await App.Current.MainPage.DisplayAlert("Error", errorMessage, "Ok");
+                
+            }
+            
+        }
+
+
+    }
+    
+}
