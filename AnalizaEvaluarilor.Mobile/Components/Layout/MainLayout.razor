@@ -14,16 +14,8 @@
         </div>
 
         <article class="content px-4">
-            @if (!Setting.IsAcces)
-            {
-                <h3 style="color: red;">Acces Interzis</h3>
-                <p>Nu ai permisiunea necesară pentru a accesa această pagină.</p>
-                
-            }
-            else
-            {
-                @Body
-            }
+       
+            @Body
         </article>
     </main>
 </div>
@@ -33,8 +25,4 @@
 @code
 {
     
-  
-
-    
-}
 }

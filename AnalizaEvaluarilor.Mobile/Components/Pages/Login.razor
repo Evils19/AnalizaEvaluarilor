@@ -7,6 +7,7 @@
 @using Microsoft.AspNetCore.Components.Authorization
 @inject NavigationManager Navigation
 
+
 <EditForm Model="LoginModel" OnValidSubmit="HandleLogin">
     <DataAnnotationsValidator></DataAnnotationsValidator>
     <ValidationSummary></ValidationSummary>
@@ -76,8 +77,13 @@
                 await SecureStorage.SetAsync(nameof(Setting.UserBasicDatail), userBasicInfoStr);
                 Setting.UserBasicDatail = userBaiscDetails;
 
-                Navigation.NavigateTo("/Dashbord");
-              
+                // 🔴 Adaugă această linie pentru a seta accesul după login
+                Setting.IsAcces = true; 
+            
+                // 🔄 Actualizează interfața
+                StateHasChanged();
+
+                Navigation.NavigateTo("/Dashbord", forceLoad: true);
             }
             else
             {

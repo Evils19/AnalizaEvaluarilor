@@ -1,16 +1,20 @@
-﻿@using AnalizaEvaluarilor.Common.DTO
-<div class="top-row ps-3 navbar navbar-dark">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="">AnalizaEvaluarilor.Mobile</a>
-    </div>
-</div>
+﻿@using System.IdentityModel.Tokens.Jwt
+@using System.Text.Json
+@using AnalizaEvaluarilor.Common.DTO
 
-<input type="checkbox" title="Navigation menu" class="navbar-toggler"/>
 
-@if(Setting.UserBasicDatail != null)
+@if(Setting.IsAcces)
 {
+    <div class="top-row ps-3 navbar navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/Dashbord">AnalizaEvaluarilor.Mobile</a>
+        </div>
+    </div>
+
+    <input type="checkbox" title="Navigation menu" class="navbar-toggler"/>
+    
     <div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
-        <nav class="flex-column">
+        <nav class="flex-column d-flex" style="height: 100%;">
             <div class="nav-item px-3">
                 <NavLink class="nav-link" href="/Dashbord" Match="NavLinkMatch.All">
                     <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
@@ -21,35 +25,93 @@
                     <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Counter
                 </NavLink>
             </div>
-          
+
+
+            <div class="nav-item px-3 mt-auto">
+                <form @onsubmit="() =>Logout()" method="post">
+                    <AntiforgeryToken/>
+                    <input type="hidden" name="ReturnUrl" value=""/>
+                    <button type="submit" class="nav-link">
+                        <span class="bi bi-arrow-bar-left-nav-menu" aria-hidden="true"></span> Logout
+                    </button>
+                </form>
+            </div>
+
+
+
+  
+            
         </nav>
     </div>
 }
 else{
+    
+    <div class="top-row ps-3 navbar navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="">AnalizaEvaluarilor.Mobile</a>
+        </div>
+    </div>
 
-<div class="nav-item px-3">
-    <NavLink class="nav-link" href="/login">
-        <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Login
-    </NavLink>
-</div>
-<div class="nav-item px-3">
-    <NavLink class="nav-link" href="/Registration" >
-        <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Register
-    </NavLink>
-</div>
-
+    <input type="checkbox" title="Navigation menu" class="navbar-toggler"/>
+    
+    <div class="nav-item px-3">
+        <NavLink class="nav-link" href="/login">
+            <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Login
+        </NavLink>
+    </div>
+    <div class="nav-item px-3">
+        <NavLink class="nav-link" href="/Registration" >
+            <span class="bi bi-list-nested-nav-menu" aria-hidden="true"></span> Register
+        </NavLink>
+    </div>
 }
-
-
-
-
 @code
 {
+    
+    
+    protected override async Task OnInitializedAsync()
+    {
+        string? userDetail = await SecureStorage.GetAsync(nameof(Setting.UserBasicDatail));
+        
+        
+        if (!string.IsNullOrWhiteSpace(userDetail))
+        {
+            var userBasicDatail = JsonSerializer.Deserialize<UserBasicDatail>(userDetail);
+            var handler = new JwtSecurityTokenHandler();
+            var jsonToken = handler.ReadToken(userBasicDatail.Token) as JwtSecurityToken;
+
+            if (jsonToken != null && jsonToken.ValidTo < DateTime.UtcNow)
+            {
+                Navigation.NavigateTo("/Dashbord");
+                // Navigation.NavigateTo("/login");
+                SecureStorage.RemoveAll();
+                Setting.IsAcces= false;
+            }
+            else
+            {
+                Setting.UserBasicDatail = userBasicDatail;
+                Setting.IsAcces = true;
+                StateHasChanged();
+                Navigation.NavigateTo("/Dashbord");
+          
+            }
+        }
+
+        else
+        {
+            Navigation.NavigateTo("/login");
+        }
+    }
+    
+    
+    
     [Inject] NavigationManager Navigation { get; set; }
     public void Logout()
     {
         SecureStorage.RemoveAll();
         Setting.UserBasicDatail= null;
+        Setting.IsAcces = false;
+        StateHasChanged();
         Navigation.NavigateTo("/login");
         
     }

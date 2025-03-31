@@ -4,5 +4,5 @@ public static class Setting
 {
  
  public static UserBasicDatail UserBasicDatail { get; set; }
- public  static bool IsAcces { get; set; } = true;
+ public static bool IsAcces { get; set; }
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AnalizaEvaluarilor.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5f3d54c0dabd42a11292f97ecee929ed017f962")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba0246b69482e382bf06439d26f3aa9ea4609901")]
 [assembly: System.Reflection.AssemblyProductAttribute("AnalizaEvaluarilor.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AnalizaEvaluarilor.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

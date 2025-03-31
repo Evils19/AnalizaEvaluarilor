@@ -17,7 +17,8 @@ public static class MauiProgram
 
         builder.Services.AddMauiBlazorWebView();
         builder.Services.AddSingleton<IAppService, AppService>();
- 
+        builder.Services.AddScoped<CameraService>();
+        
         builder.Services.AddAuthorizationCore();
 
 #if DEBUG

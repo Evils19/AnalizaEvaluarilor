@@ -38,6 +38,9 @@
         <TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
         <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
     </PropertyGroup>
+    
+    <ItemGroup>
+    </ItemGroup>
 
     <ItemGroup>
         <!-- App Icon -->
@@ -64,11 +67,16 @@
         <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)"/>
         <PackageReference Include="Microsoft.AspNetCore.Components.WebView.Maui" Version="$(MauiVersion)"/>
         <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1"/>
+        <PackageReference Include="Microsoft.Maui.Essentials" Version="8.0.100" />
         <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.7.0" />
     </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\AnalizaEvaluarilor.Common\AnalizaEvaluarilor.Common.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="wwwroot\img\" />
     </ItemGroup>
 
 </Project>

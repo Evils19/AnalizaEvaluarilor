@@ -1,12 +1,84 @@
 ﻿@page "/Dashbord"
-@using AnalizaEvaluarilor.Common.DTO
+@using Microsoft.Maui.Storage
+@using AnalizaEvaluarilor.Mobile.Service
+@inject CameraService CameraService
 
-<h3>Welcome @Setting.UserBasicDatail.UserName</h3>
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <button class="btn btn-primary" @onclick="TakePhoto">Take Photo</button>
+        </div>
+        <div class="col-6">
+            <button class="btn btn-primary" @onclick="PickPhoto">Pick Photo</button>
+        </div>
+    </div>
+</div>
 
-
-
-
+@if (!string.IsNullOrEmpty(publicPath))
+{
+    <img src="AnalizaEvaluarilor.Mobile/wwwroot/img/Screenshot_1.jpg" alt="photo" style="max-width: 100%;" />
+    <p>@publicPath</p>
+}
 
 @code {
-    
+    private FileResult? photo;
+    private string? publicPath;
+
+    public async Task TakePhoto()
+    {
+        try
+        {
+            photo = await CameraService.CapturePhotoAync();
+            if (photo != null)
+            {
+                await SaveAndDisplayPhoto(photo);
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }
+
+    public async Task PickPhoto()
+    {
+        try
+        {
+            photo = await CameraService.PickPhotoAsync();
+            if (photo != null)
+            {
+                await SaveAndDisplayPhoto(photo);
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }
+
+    private async Task SaveAndDisplayPhoto(FileResult photo)
+    {
+        var fileName = photo.FileName;
+        var savePath = Path.Combine("wwwroot", "img", fileName); // 📂 Salvăm în wwwroot/img
+        var publicPathTemp = $"/img/{fileName}"; // 🌐 Calea accesibilă din browser
+
+        try
+        {
+            if (!Directory.Exists("wwwroot/img"))
+            {
+                Directory.CreateDirectory("wwwroot/img");
+            }
+
+            using var stream = await photo.OpenReadAsync();
+            using var fileStream = File.Create(savePath);
+            await stream.CopyToAsync(fileStream);
+            
+            publicPath = publicPathTemp; // 🔄 Actualizăm calea pentru UI
+            StateHasChanged();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Eroare la salvarea imaginii: {ex.Message}");
+        }
+    }
 }
