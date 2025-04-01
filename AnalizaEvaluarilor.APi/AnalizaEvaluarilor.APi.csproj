@@ -23,7 +23,6 @@
       <ProjectReference Include="..\AnalizaEvaluarilor.Common\AnalizaEvaluarilor.Common.csproj" />
       <ProjectReference Include="..\AnalizaEvaluarilor.Domain\AnalizaEvaluarilor.Domain.csproj" />
       <ProjectReference Include="..\AnalizaEvaluarilor.Infrastructure\AnalizaEvaluarilor.Infrastructure.csproj" />
-      <ProjectReference Include="..\AnalizaEvaluarilor.Razor.Components\AnalizaEvaluarilor.Razor.Components.csproj" />
     </ItemGroup>
 
 </Project>

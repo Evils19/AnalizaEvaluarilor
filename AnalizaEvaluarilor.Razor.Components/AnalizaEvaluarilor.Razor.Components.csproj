@@ -21,4 +21,8 @@
       <ProjectReference Include="..\AnalizaEvaluarilor.Common\AnalizaEvaluarilor.Common.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <UpToDateCheckInput Remove="Components\TakePickPhoto.razor" />
+    </ItemGroup>
+
 </Project>

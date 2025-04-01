@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kWHd1kJTyEK7drknj3OEhiAI7L72DwF3Vp2PwvfbkMs=",
+  "Hash": "9/mxuHAlQZCUyuELOyFLDcU6A2bjJNqEFKJLKAfrlFk=",
   "Source": "AnalizaEvaluarilor.Mobile",
   "BasePath": "/",
   "Mode": "Root",
@@ -141,27 +141,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
-    },
-    {
-      "Identity": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Mobile\\wwwroot\\img\\Screenshot_1.jpg",
-      "SourceId": "AnalizaEvaluarilor.Mobile",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Mobile\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "img/Screenshot_1#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "dfiz61pccx",
-      "Integrity": "970e4el3Zh6mHXIp1C/9JqodF3lLYUgxJABh81zOo34=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\Screenshot_1.jpg"
     },
     {
       "Identity": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Mobile\\wwwroot\\index.html",
@@ -675,88 +654,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
-        }
-      ]
-    },
-    {
-      "Route": "img/Screenshot_1.dfiz61pccx.jpg",
-      "AssetFile": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Mobile\\wwwroot\\img\\Screenshot_1.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "70182"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"970e4el3Zh6mHXIp1C/9JqodF3lLYUgxJABh81zOo34=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 15:20:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dfiz61pccx"
-        },
-        {
-          "Name": "label",
-          "Value": "img/Screenshot_1.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-970e4el3Zh6mHXIp1C/9JqodF3lLYUgxJABh81zOo34="
-        }
-      ]
-    },
-    {
-      "Route": "img/Screenshot_1.jpg",
-      "AssetFile": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Mobile\\wwwroot\\img\\Screenshot_1.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "70182"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"970e4el3Zh6mHXIp1C/9JqodF3lLYUgxJABh81zOo34=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 31 Mar 2025 15:20:44 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-970e4el3Zh6mHXIp1C/9JqodF3lLYUgxJABh81zOo34="
         }
       ]
     },

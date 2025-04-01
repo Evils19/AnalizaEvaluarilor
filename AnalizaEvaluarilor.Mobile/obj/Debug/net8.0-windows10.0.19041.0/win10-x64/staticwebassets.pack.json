@@ -21,10 +21,6 @@
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Mobile\\wwwroot\\img\\Screenshot_1.jpg",
-      "PackagePath": "staticwebassets\\img\\Screenshot_1.jpg"
-    },
-    {
       "Id": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Mobile\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },

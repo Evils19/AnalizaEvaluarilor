@@ -1,0 +1,127 @@
+﻿@using AnalizaEvaluarilor.Mobile.Service
+@inject CameraService CameraService
+
+<div class="bottom-nav">
+    <button class="nav-button camera-button">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M3 8H5L7 5H17L19 8H21V19H3V8Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="nav-label">Camera</span>
+    </button>
+    <button class="nav-button gallery-button">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 4H21V20H3V4Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M9 13L11 15L15 11" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span class="nav-label">Galerie</span>
+    </button>
+</div>
+
+<style>
+    .bottom-nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #1A1A1A;
+        height: 70px;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+        padding: 10px 0;
+    }
+
+    .nav-button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        font-size: 14px;
+    }
+
+    .nav-button svg {
+        width: 28px;
+        height: 28px;
+        margin-bottom: 4px;
+    }
+
+    .nav-label {
+        font-size: 12px;
+        opacity: 0.8;
+    }
+</style>
+
+@code {
+    private FileResult? photo;
+    private string? publicPath;
+
+    [Parameter] public EventCallback OnCancel { get; set; }
+
+    [Parameter] public EventCallback<string> OnPhotoSelected { get; set; }
+
+    public async Task TakePhoto()
+    {
+        try
+        {
+            photo = await CameraService.CapturePhotoAync();
+            if (photo != null)
+            {
+                await SaveAndDisplayPhoto(photo);
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }
+
+    public async Task PickPhoto()
+    {
+        try
+        {
+            photo = await CameraService.PickPhotoAsync();
+            if (photo != null)
+            {
+                await SaveAndDisplayPhoto(photo);
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }
+
+    private async Task SaveAndDisplayPhoto(FileResult photo)
+    {
+        var fileName = photo.FileName;
+        var savePath = Path.Combine("wwwroot", "img", fileName);
+        var publicPathTemp = $"/img/{fileName}";
+
+        try
+        {
+            if (!Directory.Exists("wwwroot/img"))
+            {
+                Directory.CreateDirectory("wwwroot/img");
+            }
+
+            using var stream = await photo.OpenReadAsync();
+            using var fileStream = File.Create(savePath);
+            await stream.CopyToAsync(fileStream);
+
+            publicPath = publicPathTemp;
+            await OnPhotoSelected.InvokeAsync(publicPath);
+            StateHasChanged();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Eroare la salvarea imaginii: {ex.Message}");
+        }
+    }
+
+}
