@@ -1,8 +1,5 @@
 ﻿using AnalizaEvaluarilor.Mobile.Service;
-using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.Extensions.Logging;
-
-
 
 namespace AnalizaEvaluarilor.Mobile;
 

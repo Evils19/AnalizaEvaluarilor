@@ -69,39 +69,39 @@ else{
 {
     
     
-    protected override async Task OnInitializedAsync()
-    {
-        string? userDetail = await SecureStorage.GetAsync(nameof(Setting.UserBasicDatail));
-        
-        
-        if (!string.IsNullOrWhiteSpace(userDetail))
-        {
-            var userBasicDatail = JsonSerializer.Deserialize<UserBasicDatail>(userDetail);
-            var handler = new JwtSecurityTokenHandler();
-            var jsonToken = handler.ReadToken(userBasicDatail.Token) as JwtSecurityToken;
-
-            if (jsonToken != null && jsonToken.ValidTo < DateTime.UtcNow)
-            {
-                Navigation.NavigateTo("/Dashbord");
-                // Navigation.NavigateTo("/login");
-                SecureStorage.RemoveAll();
-                Setting.IsAcces= false;
-            }
-            else
-            {
-                Setting.UserBasicDatail = userBasicDatail;
-                Setting.IsAcces = true;
-                StateHasChanged();
-                Navigation.NavigateTo("/Dashbord");
-          
-            }
-        }
-
-        else
-        {
-            Navigation.NavigateTo("/login");
-        }
-    }
+    // protected override async Task OnInitializedAsync()
+    // {
+    //     string? userDetail = await SecureStorage.GetAsync(nameof(Setting.UserBasicDatail));
+    //     
+    //     
+    //     if (!string.IsNullOrWhiteSpace(userDetail))
+    //     {
+    //         var userBasicDatail = JsonSerializer.Deserialize<UserBasicDatail>(userDetail);
+    //         var handler = new JwtSecurityTokenHandler();
+    //         var jsonToken = handler.ReadToken(userBasicDatail.Token) as JwtSecurityToken;
+    //
+    //         if (jsonToken != null && jsonToken.ValidTo < DateTime.UtcNow)
+    //         {
+    //             Navigation.NavigateTo("/Dashbord");
+    //             // Navigation.NavigateTo("/login");
+    //             SecureStorage.RemoveAll();
+    //             Setting.IsAcces= false;
+    //         }
+    //         else
+    //         {
+    //             Setting.UserBasicDatail = userBasicDatail;
+    //             Setting.IsAcces = true;
+    //             StateHasChanged();
+    //             Navigation.NavigateTo("/Dashbord");
+    //       
+    //         }
+    //     }
+    //
+    //     else
+    //     {
+    //         Navigation.NavigateTo("/login");
+    //     }
+    // }
     
     
     
