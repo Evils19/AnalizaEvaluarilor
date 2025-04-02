@@ -1,7 +1,7 @@
 ﻿using AnalizaEvaluarilor.Mobile.Service;
 using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.Extensions.Logging;
-
+using MudBlazor.Services;
 
 
 namespace AnalizaEvaluarilor.Mobile;
@@ -20,6 +20,7 @@ public static class MauiProgram
         builder.Services.AddScoped<CameraService>();
         
         builder.Services.AddAuthorizationCore();
+        builder.Services.AddMudServices();
 
 #if DEBUG
         builder.Services.AddBlazorWebViewDeveloperTools();

@@ -6,7 +6,7 @@ namespace AnalizaEvaluarilor.Mobile.Service;
 
 public class AppService : IAppService
 {
-    private string baseUrl = "https://localhost:44335";
+    private string baseUrl = "http://localhost:5178";
 
     public async Task<string> Authenticate(UserDTO user)
     {

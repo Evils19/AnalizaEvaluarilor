@@ -33,17 +33,10 @@ D:\MAUI\Teza\AnalizaEvaluarilor.APi\obj\Debug\net8.0\refint\AnalizaEvaluarilor.A
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\obj\Debug\net8.0\AnalizaEvaluarilor.APi.pdb
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\obj\Debug\net8.0\AnalizaEvaluarilor.APi.genruntimeconfig.cache
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\obj\Debug\net8.0\ref\AnalizaEvaluarilor.APi.dll
-D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\AnalizaEvaluarilor.Razor.Components.staticwebassets.runtime.json
-D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\AnalizaEvaluarilor.Razor.Components.staticwebassets.endpoints.json
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\AnalizaEvaluarilor.APi.staticwebassets.runtime.json
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Azure.Core.dll
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Azure.Identity.dll
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Humanizer.dll
-D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
-D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
-D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
-D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Web.dll
-D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
@@ -70,7 +63,6 @@ D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.IdentityModel.Log
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
-D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.JSInterop.dll
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Mono.TextTemplating.dll
@@ -156,12 +148,10 @@ D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\AnalizaEvaluarilor.Applicat
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\AnalizaEvaluarilor.Common.dll
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\AnalizaEvaluarilor.Domain.dll
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\AnalizaEvaluarilor.Infrastructure.dll
-D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\AnalizaEvaluarilor.Razor.Components.dll
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\AnalizaEvaluarilor.Application.pdb
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\AnalizaEvaluarilor.Common.pdb
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\AnalizaEvaluarilor.Domain.pdb
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\AnalizaEvaluarilor.Infrastructure.pdb
-D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\AnalizaEvaluarilor.Razor.Components.pdb
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
@@ -169,6 +159,3 @@ D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.AspNetCore.Identi
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 D:\MAUI\Teza\AnalizaEvaluarilor.APi\obj\Debug\net8.0\AnalizaEvaluarilor.APi.sourcelink.json
-D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.Bcl.Memory.dll
-D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.Maui.Essentials.dll
-D:\MAUI\Teza\AnalizaEvaluarilor.APi\bin\Debug\net8.0\Microsoft.Maui.Graphics.dll

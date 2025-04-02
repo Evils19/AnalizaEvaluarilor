@@ -1,7 +1,7 @@
 ﻿@using System.IdentityModel.Tokens.Jwt
 @using System.Text.Json
 @using AnalizaEvaluarilor.Common.DTO
-
+@using MudBlazor
 
 @if(Setting.IsAcces)
 {
@@ -10,6 +10,14 @@
             <a class="navbar-brand" href="/Dashbord">AnalizaEvaluarilor.Mobile</a>
         </div>
     </div>
+
+    <MudThemeProvider @bind-IsDarkMode="@_isDarkMode" Theme="_theme"/>
+    <MudSwitch @bind-Value="_isDarkMode" Color="Color.Primary" Class="ma-4 custom-switch" T="bool">
+        <ChildContent>
+            <MudIcon Icon="@(_isDarkMode ? Icons.Material.Filled.ModeNight : Icons.Material.Filled.WbSunny)"
+                     Color="@(_isDarkMode ? Color.Default : Color.Warning)" />
+        </ChildContent>
+    </MudSwitch>
 
     <input type="checkbox" title="Navigation menu" class="navbar-toggler"/>
     
@@ -45,12 +53,19 @@
     </div>
 }
 else{
-    
+
     <div class="top-row ps-3 navbar navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="">AnalizaEvaluarilor.Mobile</a>
         </div>
     </div>
+    <MudThemeProvider @bind-IsDarkMode="@_isDarkMode" Theme="_theme"/>
+    <MudSwitch @bind-Value="_isDarkMode" Color="Color.Primary" Class="ma-4 custom-switch" T="bool">
+        <ChildContent>
+            <MudIcon Icon="@(_isDarkMode ? Icons.Material.Filled.ModeNight : Icons.Material.Filled.WbSunny)"
+                     Color="@(_isDarkMode ? Color.Default : Color.Warning)" />
+        </ChildContent>
+    </MudSwitch>
 
     <input type="checkbox" title="Navigation menu" class="navbar-toggler"/>
     
@@ -115,4 +130,6 @@ else{
         Navigation.NavigateTo("/login");
         
     }
+    private MudTheme _theme = new();
+    private bool _isDarkMode;
 }
