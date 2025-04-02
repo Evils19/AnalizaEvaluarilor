@@ -1,0 +1,41 @@
+﻿@using AnalizaEvaluarilor.Common.DTO
+@using MudBlazor
+<MudPaper Width="250px" Class="py-3 flex-column d-flex " Elevation="0"
+          Style="height: 85vh; border-radius: 0; background:#333; margin-top: -5%; margin-left: -5%; position: relative; overflow-y: auto; box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35); ">
+    <MudNavMenu Class="d-flex flex-column flex-grow-1">
+        <MudText Typo="Typo.h6" Style="color: #adb5bd" Class="px-4">Analiza Evaluarilor</MudText>
+        <MudText Typo="Typo.body2" Style="color: #adb5bd" Class="px-4 mud-text-secondary">Teza de Licenta</MudText>
+        <MudDivider Class="my-2" Style=" flex-grow: initial !important;"/>
+
+
+        <div class="nav-item px-3 d-flex flex-column flex-grow-2">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3 mt-auto" style="bottom: 0">
+            <form method="post" @onsubmit="() => Logout()">
+                <AntiforgeryToken/>
+                <input type="hidden" name="ReturnUrl" value=""/>
+                <button type="submit" class="nav-link">
+                    <span class="bi bi-arrow-bar-left-nav-menu" aria-hidden="true" style="color: white"></span> Logout
+                </button>
+            </form>
+        </div>
+    </MudNavMenu>
+</MudPaper>
+
+@code
+{
+    [Inject] NavigationManager Navigation { get; set; }
+    public void Logout()
+    {
+        SecureStorage.RemoveAll();
+        Setting.UserBasicDatail= null;
+        Setting.IsAcces = false;
+        StateHasChanged();
+        Navigation.NavigateTo("/login");
+        
+    }
+}

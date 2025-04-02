@@ -6,39 +6,45 @@
 
 
 
-<EditForm Model="registerDTO" OnValidSubmit="HandleLogin">
-    <DataAnnotationsValidator></DataAnnotationsValidator>
-    <div class="card">
-        <div class="card-header">Registration</div>
-        <div class="card-body">
-            <div class="form-group mt-2">
-                <label>Email</label>
-                <InputText class="form-control" @bind-Value="registerDTO.Email"></InputText>
-                <ValidationMessage For="@(() => registerDTO.Email)"/>
-            </div>
-            <div class="form-group mt-2">
-                <label>Username</label>
-                <InputText class="form-control" @bind-Value="registerDTO.Username"></InputText>
-                <ValidationMessage For="@(() => registerDTO.Username)" />
 
-            </div>
-            <div class="form-group mt-2">
-                <label>Password</label>
-                <InputText type="password" class="form-control" @bind-Value="registerDTO.Password"></InputText>
-                <ValidationMessage For="@(() => registerDTO.Password)"/>
-            </div>
-            <div class="form-group mt-2">
-                <label>Password Confirm</label>
-                <InputText type="password" class="form-control" @bind-Value="registerDTO.PasswordConfimr"></InputText>
-                <ValidationMessage For="@(() => registerDTO.PasswordConfimr)"/>
+<div class="d-flex justify-content-center align-items-center vh-100">
+    <EditForm Model="registerDTO" OnValidSubmit="HandleLogin">
+        <DataAnnotationsValidator></DataAnnotationsValidator>
+        <ValidationSummary></ValidationSummary>
+
+        <div class="card shadow-lg p-4" style="width: 350px;">
+            <div class="card-header text-center">Înregistrare</div>
+            <div class="card-body">
+                <div class="form-group mt-2">
+                    <label>Email</label>
+                    <InputText class="form-control" @bind-Value="registerDTO.Email"></InputText>
+                    <ValidationMessage For="@(() => registerDTO.Email)"/>
+                </div>
+                <div class="form-group mt-2">
+                    <label>Username</label>
+                    <InputText class="form-control" @bind-Value="registerDTO.Username"></InputText>
+                    <ValidationMessage For="@(() => registerDTO.Username)" />
+                </div>
+                <div class="form-group mt-2">
+                    <label>Password</label>
+                    <InputText type="password" class="form-control" @bind-Value="registerDTO.Password"></InputText>
+                    <ValidationMessage For="@(() => registerDTO.Password)"/>
+                </div>
+                <div class="form-group mt-2">
+                    <label>Password Confirm</label>
+                    <InputText type="password" class="form-control" @bind-Value="registerDTO.PasswordConfimr"></InputText>
+                    <ValidationMessage For="@(() => registerDTO.PasswordConfimr)"/>
+                </div>
+                </div>
+            <NavLink class="nav-link text-center" href="/login">
+                <span>Apasă aici dacă ai deja un cont</span>
+            </NavLink>
+            <div class="card-footer text-center">
+                <button type="submit" class="btn btn-primary w-100">Înregistrare</button>
             </div>
         </div>
-        <div class="card-footer">
-            <button type="submit" class="btn btn-primary">Înregistrare</button>
-        </div>
-    </div>
-</EditForm>
-
+    </EditForm>
+</div>
 
 
 

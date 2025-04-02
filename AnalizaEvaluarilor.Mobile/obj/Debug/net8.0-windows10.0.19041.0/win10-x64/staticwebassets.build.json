@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "i/b/ikWdgQjyaqfxbsYkANLJMCTonqzEsDXrSGldJ4c=",
+  "Hash": "s12wdJCjULSddRgO07O7JLnYIfbALK3JWwkWRdLfYm0=",
   "Source": "AnalizaEvaluarilor.Mobile",
   "BasePath": "/",
   "Mode": "Root",
@@ -17,6 +17,48 @@
   ],
   "Assets": [
     {
+      "Identity": "C:\\Users\\jitar\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\jitar\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hmu6kx9mgf",
+      "Integrity": "d1ee8m8CKXHLkW0DDwn00o/ghDNhscMVl/ei7IzThfU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\jitar\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\jitar\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\jitar\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tspksaymx7",
+      "Integrity": "Y5zCtrV6/XngfIAwnKZESn//G3w6zwlrDewTKl6fojQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\jitar\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.js"
+    },
+    {
       "Identity": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Mobile\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\AnalizaEvaluarilor.Mobile.styles.css",
       "SourceId": "AnalizaEvaluarilor.Mobile",
       "SourceType": "Computed",
@@ -31,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "nxcgr5vlqu",
-      "Integrity": "ewQlLT6FZJQiPNHGX5SkjrrfCnKWyvQ7T1D7q29C30Q=",
+      "Fingerprint": "lwnfacxm0u",
+      "Integrity": "xbCdCX6z6g4PhoKzms8pp/FoRnXAk5pFIPsiBf7WrV0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Mobile\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\AnalizaEvaluarilor.Mobile.styles.css"
@@ -52,8 +94,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "nxcgr5vlqu",
-      "Integrity": "ewQlLT6FZJQiPNHGX5SkjrrfCnKWyvQ7T1D7q29C30Q=",
+      "Fingerprint": "lwnfacxm0u",
+      "Integrity": "xbCdCX6z6g4PhoKzms8pp/FoRnXAk5pFIPsiBf7WrV0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Mobile\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\AnalizaEvaluarilor.Mobile.bundle.scp.css"
@@ -73,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "z5wfrdk8gt",
-      "Integrity": "aSDjhqvBzgjtMa3ZasnbrNqS9bKDXBlBKVLJa5E+Ydk=",
+      "Fingerprint": "hfdtvn36q4",
+      "Integrity": "PdQgSj7DT49H5jB6uv8+BKKuZCmhrQSkcewNji8Gi+o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\app.js"
@@ -178,14 +220,178 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "uxvof259pv",
-      "Integrity": "TgFILCJ64gKs2dlW2AKJtnoNMyglcsFKRYbJBpGHkzA=",
+      "Fingerprint": "yuj7k365s8",
+      "Integrity": "tn/MSrWv2GWBdSLd443XbGK4/Al++s0DgcVYOAd/XwM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
     }
   ],
   "Endpoints": [
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.css",
+      "AssetFile": "C:\\Users\\jitar\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "595896"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d1ee8m8CKXHLkW0DDwn00o/ghDNhscMVl/ei7IzThfU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 18:04:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-d1ee8m8CKXHLkW0DDwn00o/ghDNhscMVl/ei7IzThfU="
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.hmu6kx9mgf.css",
+      "AssetFile": "C:\\Users\\jitar\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "595896"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"d1ee8m8CKXHLkW0DDwn00o/ghDNhscMVl/ei7IzThfU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 18:04:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hmu6kx9mgf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-d1ee8m8CKXHLkW0DDwn00o/ghDNhscMVl/ei7IzThfU="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/MudBlazor/MudBlazor.min.css"
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.js",
+      "AssetFile": "C:\\Users\\jitar\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55250"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y5zCtrV6/XngfIAwnKZESn//G3w6zwlrDewTKl6fojQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 18:04:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y5zCtrV6/XngfIAwnKZESn//G3w6zwlrDewTKl6fojQ="
+        }
+      ]
+    },
+    {
+      "Route": "_content/MudBlazor/MudBlazor.min.tspksaymx7.js",
+      "AssetFile": "C:\\Users\\jitar\\.nuget\\packages\\mudblazor\\8.3.0\\staticwebassets\\MudBlazor.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55250"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y5zCtrV6/XngfIAwnKZESn//G3w6zwlrDewTKl6fojQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 23 Feb 2025 18:04:24 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tspksaymx7"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y5zCtrV6/XngfIAwnKZESn//G3w6zwlrDewTKl6fojQ="
+        },
+        {
+          "Name": "label",
+          "Value": "_content/MudBlazor/MudBlazor.min.js"
+        }
+      ]
+    },
     {
       "Route": "AnalizaEvaluarilor.Mobile.bundle.scp.css",
       "AssetFile": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Mobile\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\AnalizaEvaluarilor.Mobile.bundle.scp.css",
@@ -197,7 +403,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19631"
+          "Value": "23543"
         },
         {
           "Name": "Content-Type",
@@ -205,11 +411,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ewQlLT6FZJQiPNHGX5SkjrrfCnKWyvQ7T1D7q29C30Q=\""
+          "Value": "\"xbCdCX6z6g4PhoKzms8pp/FoRnXAk5pFIPsiBf7WrV0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Apr 2025 16:24:42 GMT"
+          "Value": "Wed, 02 Apr 2025 21:35:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -219,12 +425,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ewQlLT6FZJQiPNHGX5SkjrrfCnKWyvQ7T1D7q29C30Q="
+          "Value": "sha256-xbCdCX6z6g4PhoKzms8pp/FoRnXAk5pFIPsiBf7WrV0="
         }
       ]
     },
     {
-      "Route": "AnalizaEvaluarilor.Mobile.nxcgr5vlqu.bundle.scp.css",
+      "Route": "AnalizaEvaluarilor.Mobile.lwnfacxm0u.bundle.scp.css",
       "AssetFile": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Mobile\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\projectbundle\\AnalizaEvaluarilor.Mobile.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -234,7 +440,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19631"
+          "Value": "23543"
         },
         {
           "Name": "Content-Type",
@@ -242,11 +448,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ewQlLT6FZJQiPNHGX5SkjrrfCnKWyvQ7T1D7q29C30Q=\""
+          "Value": "\"xbCdCX6z6g4PhoKzms8pp/FoRnXAk5pFIPsiBf7WrV0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Apr 2025 16:24:42 GMT"
+          "Value": "Wed, 02 Apr 2025 21:35:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -256,7 +462,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "nxcgr5vlqu"
+          "Value": "lwnfacxm0u"
         },
         {
           "Name": "label",
@@ -264,12 +470,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ewQlLT6FZJQiPNHGX5SkjrrfCnKWyvQ7T1D7q29C30Q="
+          "Value": "sha256-xbCdCX6z6g4PhoKzms8pp/FoRnXAk5pFIPsiBf7WrV0="
         }
       ]
     },
     {
-      "Route": "AnalizaEvaluarilor.Mobile.nxcgr5vlqu.styles.css",
+      "Route": "AnalizaEvaluarilor.Mobile.lwnfacxm0u.styles.css",
       "AssetFile": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Mobile\\obj\\Debug\\net8.0-windows10.0.19041.0\\win10-x64\\scopedcss\\bundle\\AnalizaEvaluarilor.Mobile.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -279,7 +485,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19631"
+          "Value": "23543"
         },
         {
           "Name": "Content-Type",
@@ -287,11 +493,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ewQlLT6FZJQiPNHGX5SkjrrfCnKWyvQ7T1D7q29C30Q=\""
+          "Value": "\"xbCdCX6z6g4PhoKzms8pp/FoRnXAk5pFIPsiBf7WrV0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Apr 2025 16:24:42 GMT"
+          "Value": "Wed, 02 Apr 2025 21:35:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -301,7 +507,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "nxcgr5vlqu"
+          "Value": "lwnfacxm0u"
         },
         {
           "Name": "label",
@@ -309,7 +515,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-ewQlLT6FZJQiPNHGX5SkjrrfCnKWyvQ7T1D7q29C30Q="
+          "Value": "sha256-xbCdCX6z6g4PhoKzms8pp/FoRnXAk5pFIPsiBf7WrV0="
         }
       ]
     },
@@ -324,7 +530,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "19631"
+          "Value": "23543"
         },
         {
           "Name": "Content-Type",
@@ -332,11 +538,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ewQlLT6FZJQiPNHGX5SkjrrfCnKWyvQ7T1D7q29C30Q=\""
+          "Value": "\"xbCdCX6z6g4PhoKzms8pp/FoRnXAk5pFIPsiBf7WrV0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Apr 2025 16:24:42 GMT"
+          "Value": "Wed, 02 Apr 2025 21:35:04 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -346,7 +552,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ewQlLT6FZJQiPNHGX5SkjrrfCnKWyvQ7T1D7q29C30Q="
+          "Value": "sha256-xbCdCX6z6g4PhoKzms8pp/FoRnXAk5pFIPsiBf7WrV0="
+        }
+      ]
+    },
+    {
+      "Route": "app.hfdtvn36q4.js",
+      "AssetFile": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Mobile\\wwwroot\\app.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1055"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PdQgSj7DT49H5jB6uv8+BKKuZCmhrQSkcewNji8Gi+o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 15:01:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hfdtvn36q4"
+        },
+        {
+          "Name": "label",
+          "Value": "app.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PdQgSj7DT49H5jB6uv8+BKKuZCmhrQSkcewNji8Gi+o="
         }
       ]
     },
@@ -361,7 +612,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1077"
+          "Value": "1055"
         },
         {
           "Name": "Content-Type",
@@ -369,11 +620,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"aSDjhqvBzgjtMa3ZasnbrNqS9bKDXBlBKVLJa5E+Ydk=\""
+          "Value": "\"PdQgSj7DT49H5jB6uv8+BKKuZCmhrQSkcewNji8Gi+o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Apr 2025 15:51:57 GMT"
+          "Value": "Wed, 02 Apr 2025 15:01:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -383,52 +634,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-aSDjhqvBzgjtMa3ZasnbrNqS9bKDXBlBKVLJa5E+Ydk="
-        }
-      ]
-    },
-    {
-      "Route": "app.z5wfrdk8gt.js",
-      "AssetFile": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Mobile\\wwwroot\\app.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1077"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"aSDjhqvBzgjtMa3ZasnbrNqS9bKDXBlBKVLJa5E+Ydk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 01 Apr 2025 15:51:57 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "z5wfrdk8gt"
-        },
-        {
-          "Name": "label",
-          "Value": "app.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-aSDjhqvBzgjtMa3ZasnbrNqS9bKDXBlBKVLJa5E+Ydk="
+          "Value": "sha256-PdQgSj7DT49H5jB6uv8+BKKuZCmhrQSkcewNji8Gi+o="
         }
       ]
     },
@@ -771,7 +977,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1297"
+          "Value": "1549"
         },
         {
           "Name": "Content-Type",
@@ -779,11 +985,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TgFILCJ64gKs2dlW2AKJtnoNMyglcsFKRYbJBpGHkzA=\""
+          "Value": "\"tn/MSrWv2GWBdSLd443XbGK4/Al++s0DgcVYOAd/XwM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Apr 2025 15:53:52 GMT"
+          "Value": "Wed, 02 Apr 2025 18:55:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -793,12 +999,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-TgFILCJ64gKs2dlW2AKJtnoNMyglcsFKRYbJBpGHkzA="
+          "Value": "sha256-tn/MSrWv2GWBdSLd443XbGK4/Al++s0DgcVYOAd/XwM="
         }
       ]
     },
     {
-      "Route": "index.uxvof259pv.html",
+      "Route": "index.yuj7k365s8.html",
       "AssetFile": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Mobile\\wwwroot\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -808,7 +1014,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1297"
+          "Value": "1549"
         },
         {
           "Name": "Content-Type",
@@ -816,11 +1022,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"TgFILCJ64gKs2dlW2AKJtnoNMyglcsFKRYbJBpGHkzA=\""
+          "Value": "\"tn/MSrWv2GWBdSLd443XbGK4/Al++s0DgcVYOAd/XwM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Apr 2025 15:53:52 GMT"
+          "Value": "Wed, 02 Apr 2025 18:55:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -830,7 +1036,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "uxvof259pv"
+          "Value": "yuj7k365s8"
         },
         {
           "Name": "label",
@@ -838,7 +1044,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-TgFILCJ64gKs2dlW2AKJtnoNMyglcsFKRYbJBpGHkzA="
+          "Value": "sha256-tn/MSrWv2GWBdSLd443XbGK4/Al++s0DgcVYOAd/XwM="
         }
       ]
     }

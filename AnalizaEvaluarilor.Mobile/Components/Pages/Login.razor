@@ -8,31 +8,32 @@
 @inject NavigationManager Navigation
 
 
-<EditForm Model="LoginModel" OnValidSubmit="HandleLogin">
-    <DataAnnotationsValidator></DataAnnotationsValidator>
-    <ValidationSummary></ValidationSummary>
+<div class="d-flex justify-content-center align-items-center vh-100">
+    <EditForm Model="LoginModel" OnValidSubmit="HandleLogin">
+        <DataAnnotationsValidator></DataAnnotationsValidator>
+        <ValidationSummary></ValidationSummary>
 
-    <div class="card">
-        <div class="card-header">Login Account</div>
-        <div class="card-body">
-            <div class="form-group mt-2">
-                <label>Username</label>
-                <InputText class="form-control" @bind-Value="LoginModel.Email"></InputText>
+        <div class="card shadow-lg p-4" style="width: 350px;">
+            <div class="card-header text-center">Login Account</div>
+            <div class="card-body">
+                <div class="form-group mt-2">
+                    <label>Username</label>
+                    <InputText class="form-control" @bind-Value="LoginModel.Email"></InputText>
+                </div>
+                <div class="form-group mt-2">
+                    <label>Password</label>
+                    <InputText type="password" class="form-control" @bind-Value="LoginModel.Password"></InputText>
+                </div>
             </div>
-            <div class="form-group mt-2">
-                <label>Password</label>
-                <InputText type="password" class="form-control" @bind-Value="LoginModel.Password"></InputText>
+            <NavLink class="nav-link text-center" href="/Registration">
+                <span>Apasă aici dacă nu ai un cont</span>
+            </NavLink>
+            <div class="card-footer text-center">
+                <button type="submit" class="btn btn-primary w-100">Login</button>
             </div>
         </div>
-        <NavLink class="nav-link" href="/Registration">
-            <span>Apasă aici dacă nu ai un cont</span>
-        </NavLink>
-        <div class="card-footer">
-            <button type="submit" class="btn btn-primary">Login</button>
-        </div>
-    </div>
-
-</EditForm>
+    </EditForm>
+</div>
 
 
 @code

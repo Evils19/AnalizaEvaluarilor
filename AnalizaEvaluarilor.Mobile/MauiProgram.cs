@@ -1,5 +1,6 @@
 ﻿using AnalizaEvaluarilor.Mobile.Service;
 using Microsoft.Extensions.Logging;
+using MudBlazor.Services;
 
 namespace AnalizaEvaluarilor.Mobile;
 
@@ -15,6 +16,7 @@ public static class MauiProgram
         builder.Services.AddMauiBlazorWebView();
         builder.Services.AddSingleton<IAppService, AppService>();
         builder.Services.AddScoped<CameraService>();
+        builder.Services.AddMudServices();
         
         builder.Services.AddAuthorizationCore();
 

@@ -1,45 +1,69 @@
 ﻿@using AnalizaEvaluarilor.Mobile.Service
+@using MudBlazor
 @inject CameraService CameraService
-@inject IJSRuntime JSRuntime
 
 
 
-<div class="sc-bottom-bar">
-    <a class="sc-menu-item">
-        <i class="fas fa-list"></i>
-
-    </a>
-    <a class="sc-menu-item sc-current">
-        <i class="fas fa-plus"></i>
-    </a>
-    <a class="sc-nav-indicator">
-    </a>
-    <a class="sc-menu-item">
-        <i class="fas fa-calendar-alt"></i>
-    </a>
+<div class="@($"my-nav-menu{(activeNav ? "-active" : $"{strgService}")}")">
+    <MudBlazorNav/>
 </div>
+
+
+
+
+
+
+<div class="Newnavbar">
+
+    <div class="border @isActive[0]" @onclick="() => Meniu()">
+        <MudIcon Icon="@Icons.Material.Filled.List">
+
+        </MudIcon>
+    </div>
+    <div class="border @isActive[1]" @onclick="() => Add()">
+        <MudIcon Icon="@Icons.Material.Filled.Add"
+        >
+
+        </MudIcon>
+    </div>
+
+    <div class="border @isActive[2]" @onclick="() => Photo()">
+        <MudIcon Icon="@Icons.Material.Filled.Photo">
+
+        </MudIcon>
+    </div>
+
+</div>
+
 
 @code {
     private FileResult? photo;
     private string? publicPath;
+    private bool activeNav = false;
+    private string strgService;
 
     [Parameter] public EventCallback OnCancel { get; set; }
 
     [Parameter] public EventCallback<string> OnPhotoSelected { get; set; }
+
+    private string[] isActive;
     
-    protected override async Task OnAfterRenderAsync(bool firstRender)
+    
+    protected override async Task OnInitializedAsync()
     {
-
-        if (firstRender)
-        {
-
-            await JSRuntime.InvokeVoidAsync("initializeMenu");
-
-        }
+        isActive = new string[3];
+        await InvokeAsync(StateHasChanged);
     }
 
-    public async Task TakePhoto()
+    public async Task Add()
     {
+        isActive = Enumerable.Range(0, isActive.Length)
+            .Select(i => i == 1 ? "active" : "")
+            .ToArray();
+        Console.WriteLine("Test");
+        await InvokeAsync(StateHasChanged);
+
+
         try
         {
             photo = await CameraService.CapturePhotoAync();
@@ -52,10 +76,20 @@
         {
             Console.WriteLine(ex.Message);
         }
+
+        isActive = new string[3];
+        await InvokeAsync(StateHasChanged);
     }
 
-    public async Task PickPhoto()
+    public async Task Photo()
     {
+        isActive = Enumerable.Range(0, isActive.Length)
+            .Select(i => i == 2 ? "active" : "")
+            .ToArray();
+        Console.WriteLine("Test");
+        await InvokeAsync(StateHasChanged);
+
+
         try
         {
             photo = await CameraService.PickPhotoAsync();
@@ -68,7 +102,28 @@
         {
             Console.WriteLine(ex.Message);
         }
+
+        isActive = new string[3];
+        await InvokeAsync(StateHasChanged);
     }
+
+    public async Task Meniu()
+    {
+        isActive = Enumerable.Range(0, isActive.Length)
+            .Select(i => i == 0 ? "active" : "")
+            .ToArray(); 
+        await InvokeAsync(StateHasChanged);
+        activeNav=!activeNav;
+        strgService= activeNav ? "" : "-inactive";
+        await InvokeAsync(StateHasChanged);
+        
+        await Task.Delay(400);
+        isActive = new string[3];
+        await InvokeAsync(StateHasChanged);
+        
+
+    }
+
 
     private async Task SaveAndDisplayPhoto(FileResult photo)
     {
