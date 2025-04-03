@@ -5,6 +5,7 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <RootNamespace>WebApplication1</RootNamespace>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     </PropertyGroup>
 
     <ItemGroup>
@@ -23,6 +24,12 @@
       <ProjectReference Include="..\AnalizaEvaluarilor.Common\AnalizaEvaluarilor.Common.csproj" />
       <ProjectReference Include="..\AnalizaEvaluarilor.Domain\AnalizaEvaluarilor.Domain.csproj" />
       <ProjectReference Include="..\AnalizaEvaluarilor.Infrastructure\AnalizaEvaluarilor.Infrastructure.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
     </ItemGroup>
 
 </Project>

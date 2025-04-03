@@ -1,0 +1,31 @@
+﻿services:
+  analizaevaluarilor.api:
+    image: analizaevaluarilor.api
+    build:
+      context: .
+      dockerfile: AnalizaEvaluarilor.APi/Dockerfile
+    ports:
+      - "8081:8080"  # Измените внешний порт на 8081
+    container_name: ApiAnaliza
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ConnectionStrings__DockerConnection=server=db_Server;database=AnalizaEvServer;user=sa;password=aTMYCs2nQU6*Gh7y;encrypt=False
+    depends_on:
+      - db_Server
+    restart: always
+
+  db_Server:
+    image: "mcr.microsoft.com/mssql/server:2022-latest"
+    ports:
+      - "1434:1433"
+    environment:
+      SA_PASSWORD: "aTMYCs2nQU6*Gh7y"
+      ACCEPT_EULA: "Y"
+    container_name: db_Server
+    volumes:
+      - db-data:/var/opt/mssql
+
+    restart: always
+
+volumes:
+  db-data:
