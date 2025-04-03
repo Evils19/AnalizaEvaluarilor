@@ -1,0 +1,65 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\MAUI\\Teza\\TempWeb\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "D:\\MAUI\\Teza\\TempWeb\\obj\\Debug\\net8.0\\scopedcss\\bundle\\TempWeb.styles.css",
+      "PackagePath": "staticwebassets\\TempWeb.styles.css"
+    },
+    {
+      "Id": "D:\\MAUI\\Teza\\TempWeb\\wwwroot\\App.js",
+      "PackagePath": "staticwebassets\\App.js"
+    },
+    {
+      "Id": "D:\\MAUI\\Teza\\TempWeb\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\MAUI\\Teza\\TempWeb\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\MAUI\\Teza\\TempWeb\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\MAUI\\Teza\\TempWeb\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\MAUI\\Teza\\TempWeb\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "D:\\MAUI\\Teza\\TempWeb\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "D:\\MAUI\\Teza\\TempWeb\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TempWeb.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.TempWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.TempWeb.props",
+      "PackagePath": "build\\TempWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.TempWeb.props",
+      "PackagePath": "buildMultiTargeting\\TempWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.TempWeb.props",
+      "PackagePath": "buildTransitive\\TempWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

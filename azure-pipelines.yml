@@ -1,0 +1,58 @@
+﻿# Файл конвейера Azure для сборки и развертывания проекта
+
+trigger:
+  - none
+
+pool: prasada-server-1
+
+variables:
+  buildConfiguration: 'Release'
+
+steps:
+  - task: UseDotNet@2
+    inputs:
+      packageType: 'sdk'
+      version: '8.x.x'
+      installationPath: $(Agent.ToolsDirectory)/dotnet
+
+  - task: DotNetCoreCLI@2
+    inputs:
+      command: 'restore'
+      projects: '**/*.csproj'
+
+  - task: DotNetCoreCLI@2
+    inputs:
+      command: 'build'
+      projects: '**/*.csproj'
+      arguments: '--configuration $(buildConfiguration)'
+
+  - task: DotNetCoreCLI@2
+    inputs:
+      command: 'test'
+      projects: '**/*.csproj'
+      arguments: '--configuration $(buildConfiguration)'
+
+  - task: DockerCompose@0
+    displayName: 'Build Docker images'
+    inputs:
+      action: 'Build services'
+      dockerComposeFile: 'compose.yaml'
+      projectName: 'AnalyzeEvaluarilor'
+      buildImages: true
+
+  - task: DockerCompose@0
+    displayName: 'Down Docker Compose'
+    inputs:
+      action: 'Run a Docker Compose command'
+      dockerComposeFile: 'compose.yaml'
+      projectName: 'AnalyzeEvaluarilor'
+      dockerComposeCommand: 'down --remove-orphans'
+
+  - task: DockerCompose@0
+    displayName: 'Up Docker Compose'
+    inputs:
+      action: 'Run a Docker Compose command'
+      dockerComposeFile: 'compose.yaml'
+      projectName: 'AnalyzeEvaluarilor'
+      dockerComposeCommand: 'up'
+      arguments: '-d'

@@ -1,0 +1,133 @@
+.Newnavbar[b-p71u4r7fxd] {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 20px; /* Puțin spațiu de la marginea de jos */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 98%;
+    padding: 10px 20px;
+    border-radius: 20px; /* Colțuri rotunde */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Umbră */
+    z-index: 999;
+}
+
+.my-nav-menu[b-p71u4r7fxd]{
+    display: none !important;
+
+
+}
+.my-nav-menu-inactive[b-p71u4r7fxd]{
+    display: flex !important;
+    animation: inactvieNac-b-p71u4r7fxd 0.3s forwards;
+}
+
+.my-nav-menu-active[b-p71u4r7fxd]{
+    display: flex !important;
+    transform: translateX(0);
+    animation: nav-b-p71u4r7fxd 0.3s forwards;
+}
+@keyframes inactvieNac-b-p71u4r7fxd {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(-50%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+
+}
+@keyframes nav-b-p71u4r7fxd{
+    0% {
+        transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(-50%);
+        opacity: 50%;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 100%;
+    }
+}
+
+
+.container[b-p71u4r7fxd] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100vh;
+    flex-wrap: wrap; /* Permite trecerea pe linie nouă dacă ecranul e mic */
+    padding: 20px;
+}
+
+
+
+
+.inactive[b-p71u4r7fxd]{
+
+    transform: scale(1.3);
+    animation: inactive-b-p71u4r7fxd 0.3s forwards;
+}
+
+@keyframes inactive-b-p71u4r7fxd {
+    0% {
+        transform: translateY(-20px) scale(1.3);
+        background: #3498db !important;
+    }
+    50% {
+        transform:translateY(-10px) scale(1.2);
+        background: rgba(52, 152, 219, 0.5) !important;
+    }
+    100% {
+        transform: translateY(0) scale(1);
+        z-index: 999;
+        background:white;
+
+    }
+
+}
+
+@keyframes active-b-p71u4r7fxd {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: translateY(-20px) scale(1.3);
+        z-index: 999;
+
+    }
+
+
+}
+
+.active[b-p71u4r7fxd]{
+    background-color: #3498db !important;
+    transform: scale(1.3);
+    animation: active-b-p71u4r7fxd 0.3s forwards;
+
+}
+
+
+.border[b-p71u4r7fxd]{
+    background: #ffffff;
+    border-radius: max(20px, 2vw);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-left: 10px;
+
+}
+
+
+
+
+

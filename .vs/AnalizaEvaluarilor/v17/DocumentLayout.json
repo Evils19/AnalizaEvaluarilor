@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\MAUI\\Teza\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35AC2E03-1C8A-4015-817D-A35200B8FE6B}|AnalizaEvaluarilor.Mobile\\AnalizaEvaluarilor.Mobile.csproj|d:\\maui\\teza\\analizaevaluarilor.mobile\\components\\pages\\dashbord.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35AC2E03-1C8A-4015-817D-A35200B8FE6B}|AnalizaEvaluarilor.Mobile\\AnalizaEvaluarilor.Mobile.csproj|solutionrelative:analizaevaluarilor.mobile\\components\\pages\\dashbord.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35AC2E03-1C8A-4015-817D-A35200B8FE6B}|AnalizaEvaluarilor.Mobile\\AnalizaEvaluarilor.Mobile.csproj|d:\\maui\\teza\\analizaevaluarilor.mobile\\components\\pages\\applaunch.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35AC2E03-1C8A-4015-817D-A35200B8FE6B}|AnalizaEvaluarilor.Mobile\\AnalizaEvaluarilor.Mobile.csproj|solutionrelative:analizaevaluarilor.mobile\\components\\pages\\applaunch.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35AC2E03-1C8A-4015-817D-A35200B8FE6B}|AnalizaEvaluarilor.Mobile\\AnalizaEvaluarilor.Mobile.csproj|d:\\maui\\teza\\analizaevaluarilor.mobile\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35AC2E03-1C8A-4015-817D-A35200B8FE6B}|AnalizaEvaluarilor.Mobile\\AnalizaEvaluarilor.Mobile.csproj|solutionrelative:analizaevaluarilor.mobile\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35AC2E03-1C8A-4015-817D-A35200B8FE6B}|AnalizaEvaluarilor.Mobile\\AnalizaEvaluarilor.Mobile.csproj|d:\\maui\\teza\\analizaevaluarilor.mobile\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35AC2E03-1C8A-4015-817D-A35200B8FE6B}|AnalizaEvaluarilor.Mobile\\AnalizaEvaluarilor.Mobile.csproj|solutionrelative:analizaevaluarilor.mobile\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35AC2E03-1C8A-4015-817D-A35200B8FE6B}|AnalizaEvaluarilor.Mobile\\AnalizaEvaluarilor.Mobile.csproj|d:\\maui\\teza\\analizaevaluarilor.mobile\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35AC2E03-1C8A-4015-817D-A35200B8FE6B}|AnalizaEvaluarilor.Mobile\\AnalizaEvaluarilor.Mobile.csproj|solutionrelative:analizaevaluarilor.mobile\\components\\pages\\login.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dashbord.razor",
+              "DocumentMoniker": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Mobile\\Components\\Pages\\Dashbord.razor",
+              "RelativeDocumentMoniker": "AnalizaEvaluarilor.Mobile\\Components\\Pages\\Dashbord.razor",
+              "ToolTip": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Mobile\\Components\\Pages\\Dashbord.razor",
+              "RelativeToolTip": "AnalizaEvaluarilor.Mobile\\Components\\Pages\\Dashbord.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-31T14:41:15.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Mobile\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "AnalizaEvaluarilor.Mobile\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Mobile\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "AnalizaEvaluarilor.Mobile\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-31T14:42:16.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Mobile\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "AnalizaEvaluarilor.Mobile\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Mobile\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "AnalizaEvaluarilor.Mobile\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-31T14:42:15.125Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppLaunch.razor",
+              "DocumentMoniker": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Mobile\\Components\\Pages\\AppLaunch.razor",
+              "RelativeDocumentMoniker": "AnalizaEvaluarilor.Mobile\\Components\\Pages\\AppLaunch.razor",
+              "ToolTip": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Mobile\\Components\\Pages\\AppLaunch.razor",
+              "RelativeToolTip": "AnalizaEvaluarilor.Mobile\\Components\\Pages\\AppLaunch.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-31T14:41:27.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.razor",
+              "DocumentMoniker": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Mobile\\Components\\Pages\\Login.razor",
+              "RelativeDocumentMoniker": "AnalizaEvaluarilor.Mobile\\Components\\Pages\\Login.razor",
+              "ToolTip": "D:\\MAUI\\Teza\\AnalizaEvaluarilor.Mobile\\Components\\Pages\\Login.razor",
+              "RelativeToolTip": "AnalizaEvaluarilor.Mobile\\Components\\Pages\\Login.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-31T14:40:59.81Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

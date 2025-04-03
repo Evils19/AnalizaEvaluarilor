@@ -1,0 +1,120 @@
+﻿@page "/"
+@using MudBlazor
+
+<div class="@($"my-nav-menu{(activeNav ? "-active" : "-inactive")}")">
+
+    <MudPaper Width="250px" Class="py-3 flex-column d-flex " Elevation="0" Style="height: 85vh; border-radius: 0; background:#333; margin-top: -5%; margin-left: -5%; position: relative; overflow-y: auto; box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.35); ">
+        <MudNavMenu  Class="d-flex flex-column flex-grow-1">
+            <MudText Typo="Typo.h6" Style="color: #adb5bd" Class="px-4">Analiza Evaluarilor</MudText>
+            <MudText Typo="Typo.body2"  Style="color: #adb5bd" Class="px-4 mud-text-secondary">Teza de Licenta</MudText>
+            <MudDivider Class="my-2"  Style=" flex-grow: initial !important;"/>
+       
+
+            <div class="nav-item px-3 d-flex flex-column flex-grow-2">
+                <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                    <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
+                </NavLink>
+            </div>
+            
+            <div class="nav-item px-3 mt-auto" style="bottom: 0">
+                <form  method="post">
+                    <AntiforgeryToken/>
+                    <input type="hidden" name="ReturnUrl" value=""/>
+                    <button type="submit" class="nav-link">
+                        <span class="bi bi-arrow-bar-left-nav-menu" aria-hidden="true"></span> Logout
+                    </button> 
+                </form>
+            </div>
+        
+ 
+          
+        </MudNavMenu>
+    </MudPaper>
+</div>
+
+
+
+
+<style>
+    .mud-icon-root.mud-svg-icon {
+
+        font-size: 30px;
+
+    }
+   
+</style>
+<div class="Newnavbar">
+
+
+    <div class="border @isActive[0]" @onclick="() => Meniu()">
+        <MudIcon Icon="@Icons.Material.Filled.List"
+              >
+           
+        </MudIcon>
+    </div>
+    <div class="border @isActive[1]" @onclick="() => Add()">
+        <MudIcon Icon="@Icons.Material.Filled.Add"
+            >
+        
+        </MudIcon>
+    </div>
+ 
+    
+    <div class="border @isActive[2]" @onclick="() => Photo()">
+        <MudIcon Icon="@Icons.Material.Filled.Photo">
+               
+        
+        </MudIcon>
+    </div>
+    
+
+</div>
+
+@code {
+    private bool activeNav = false;
+    private string[] isActive = new string[3];
+
+    public async Task Add()
+    {
+        isActive = Enumerable.Range(0, isActive.Length)
+            .Select(i => i == 1 ? "active" : "")
+            .ToArray();
+        Console.WriteLine("Test");
+        await InvokeAsync(StateHasChanged);
+        isActive = new string[3];
+        await InvokeAsync(StateHasChanged);
+
+    }
+
+    public async Task Photo()
+    {
+        isActive = Enumerable.Range(0, isActive.Length)
+            .Select(i => i == 2 ? "active" : "")
+            .ToArray();
+        Console.WriteLine("Test");
+        await InvokeAsync(StateHasChanged);
+        isActive = new string[3];
+        await InvokeAsync(StateHasChanged);
+
+    }
+
+    public async Task Meniu()
+    {
+        isActive = Enumerable.Range(0, isActive.Length)
+            .Select(i => i == 0 ? "active" : "")
+            .ToArray();
+        Console.WriteLine("Test");
+        await InvokeAsync(StateHasChanged);
+        activeNav=!activeNav;
+        await InvokeAsync(StateHasChanged);
+        await Task.Delay(600);
+        isActive[0] = "inactive";
+        await InvokeAsync(StateHasChanged);
+
+    }
+}
+
+
+
+
+

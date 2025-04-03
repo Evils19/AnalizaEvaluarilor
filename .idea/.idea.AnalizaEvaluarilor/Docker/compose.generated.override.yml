@@ -1,0 +1,21 @@
+# This is a generated file. Not intended for manual editing.
+services:
+  analizaevaluarilor.api:
+    build:
+      context: "D:\\MAUI\\Teza"
+      dockerfile: "AnalizaEvaluarilor.APi/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/AnalizaEvaluarilor.APi.dll"
+    environment:
+      ASPNETCORE_STATICWEBASSETS: "/app/bin/Debug/net8.0/AnalizaEvaluarilor.APi.staticwebassets.runtime.CT.json"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "analizaevaluarilor.api:dev"
+    ports: []
+    volumes:
+    - "D:\\MAUI\\Teza\\AnalizaEvaluarilor.APi:/app:rw"
+    - "D:\\MAUI\\Teza:/src:rw"
+    - "C:\\Users\\jitar\\.nuget\\packages:/home/app/.nuget/packages"
+    working_dir: "/app"

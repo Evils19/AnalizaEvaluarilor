@@ -19,11 +19,10 @@ builder.Services.AddScoped<AuthService>();
 builder.Services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
 builder.Services.AddAuthentication(option =>
 {
-option.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-option.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+    option.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+    option.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
 }).AddJwtBearer(option =>
 {
-    
     var suymmetricSecurityKey = new SymmetricSecurityKey(builder.Configuration.GetValue<string>("Jwt:Secret").Select(c => (byte)c).ToArray());
 
     option.TokenValidationParameters = new TokenValidationParameters()
@@ -33,9 +32,9 @@ option.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
         ValidateIssuer = true,
         ValidateAudience = false,
         ValidateIssuerSigningKey = true
-
     };
 });
+
 string? environment = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
 string connectionConfig = environment switch
 {
@@ -43,11 +42,13 @@ string connectionConfig = environment switch
     "Production" => "DefaultConnection",
     _ => "LocalConnection"
 };
-var connectionString = builder.Configuration.GetConnectionString(connectionConfig) ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+
+var connectionString = builder.Configuration.GetConnectionString("DockerConnection") 
+                       ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
         options.UseSqlServer(connectionString),
     ServiceLifetime.Scoped);
-
 
 using (var scope = builder.Services.BuildServiceProvider().CreateScope())
 {
@@ -59,9 +60,6 @@ using (var scope = builder.Services.BuildServiceProvider().CreateScope())
 }
 
 var app = builder.Build();
-
-
-
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
