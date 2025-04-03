@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AnalizaEvaluarilor.Mobile")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+1cf863f6dd6079ae7775b030197478ce4bd5007a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+0bb43128b43be7c254c8085afce6344598dcfbf3")]
 [assembly: System.Reflection.AssemblyProductAttribute("AnalizaEvaluarilor.Mobile")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AnalizaEvaluarilor.Mobile")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
